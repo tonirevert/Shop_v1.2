@@ -150,19 +150,19 @@ $(document).ready(function () {
                 url: "modules/products/controller/controller_products.class.php?delete=true",
                 data: "filename=" + name,
                 success: function (data) {
-                    /*$("#progress").hide();
+                    $("#progress").hide();
                     $('.msg').text('').removeClass('msg_ok');
                     $('.msg').text('').removeClass('msg_error');
                     $("#e_avatar").html("");
-*/
-                    //var json = JSON.parse(data);
 
-                    console.log(data);
+                    var json = JSON.parse(data);
 
-                    /*
+                    //console.log(data);
+
+
                     if (json.res === true) {
                         var element;
-                        if ((element == file.previewElement) != null) {
+                        if ((element == file.previewElement) !== null) {
                             element.parentNode.removeChild(file.previewElement);
                             //alert("Imagen eliminada: " + name);
                         } else {
@@ -170,13 +170,13 @@ $(document).ready(function () {
                         }
                     } else { //json.res == false, elimino la imagen también
                         var element;
-                        if ((element == file.previewElement) != null) {
+                        if ((element == file.previewElement) !== null) {
                             element.parentNode.removeChild(file.previewElement);
                         } else {
                             false;
                         }
                     }
-                    */
+
                 }
             });
         }

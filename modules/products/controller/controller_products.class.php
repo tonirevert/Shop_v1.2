@@ -7,23 +7,22 @@ include ($_SERVER['DOCUMENT_ROOT'] . "/01_shop_v1.2/utils/upload.php");
 //include 'utils/upload.php';
 
 if ((isset($_GET["upload"])) && ($_GET["upload"] == true)){
-  //echo json_encode($_SERVER['DOCUMENT_ROOT'].substr(__FILE__, 0, (strpos(__FILE__, '/'))));
   echo json_encode("Hello world from upload in controller_products php");
   $result_prodpic = upload_files();
-  //$_SESSION['result_prodpic'] = $result_prodpic;
+  $_SESSION['result_prodpic'] = $result_prodpic;
     echo json_encode($result_prodpic);
 }
 
 if ((isset($_GET["delete"])) && ($_GET["delete"] == true)){
-    echo json_encode("Hello world from delete in controller_products.class.php");
+    //echo json_encode("Hello world from delete in controller_products.class.php");
     //$_SESSION['result_prodpic'] = array();
     $result = remove_files();
-    /*if($result === true){
+    if($result === true){
       echo json_encode(array("res" => true));
     }else{
       echo json_encode(array("res" => false));
-    }*/
-    echo json_decode($result);
+    }
+    //echo json_decode($result);
 }
 
 /*
