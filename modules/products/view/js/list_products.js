@@ -2,7 +2,7 @@
 function load_users_ajax() {
     $.ajax({
         type: 'GET',
-        url: "modules/users/controller/controller_users.class.php?load=true",
+        url: "modules/products/controller/controller_products.class.php?load=true",
         //dataType: 'json',
         async: false
     }).success(function (data) {
@@ -19,7 +19,7 @@ function load_users_ajax() {
 
 ////////////////////////////////////////////////////////////////
 function load_users_get_v1() {
-    $.get("modules/users/controller/controller_users.class.php?load=true", function (data, status) {
+    $.get("modules/products/controller/controller_products.class.php?load=true", function (data, status) {
         var json = JSON.parse(data);
         //$( "#content" ).html( json.msje );
         //alert("Data: " + json.user.usuario + "\nStatus: " + status);
@@ -30,7 +30,7 @@ function load_users_get_v1() {
 
 ////////////////////////////////////////////////////////////////
 function load_users_get_v2() {
-    var jqxhr = $.get("modules/users/controller/controller_users.class.php?load=true", function (data) {
+    var jqxhr = $.get("modules/products/controller/controller_products.class.php?load=true", function (data) {
         var json = JSON.parse(data);
         console.log(json);
         pintar_user(json);
@@ -66,7 +66,7 @@ function pintar_user(data) {
 
     var name = document.createElement("div");
     name.innerHTML = "name = ";
-    name.innerHTML += data.user.name;
+    name.innerHTML += data.product.prodname;
 
     var last_name = document.createElement("div");
     last_name.innerHTML = "last_name = ";

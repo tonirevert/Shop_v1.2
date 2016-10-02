@@ -1,6 +1,6 @@
 <?php
 
-function validate_product(){
+function validate_products($value){
     $error = array();
     $valid = true;
     $filter = array(
@@ -11,7 +11,7 @@ function validate_product(){
         'prodref' => array(
             'filter' => FILTER_VALIDATE_REGEXP,
             'options' => array('regexp' => '/^[0-9A-Za-z]{2,30}$/')
-        ),
+        ),/*
         'prodprice' => array(
             'filter' => FILTER_VALIDATE_REGEXP,
             'options' => array('regexp' => '/^[0-9]{1,30}$/')
@@ -27,11 +27,11 @@ function validate_product(){
         'proddesc' => array(
             'filter' => FILTER_VALIDATE_REGEXP,
             'options' => array('regexp' => '/^(.){1,500}$/')
-        )
+        ),*/
     );
 
-    $result = filter_input_array(INPUT_POST, $filter);
-    
+    $result = filter_var_array($value, $filter);
+    /*
     //Non checked data:
     $result['category'] = $_POST['category'];
     $result['packaging'] = $_POST['packaging'];
@@ -43,17 +43,17 @@ function validate_product(){
         $error['category'] = "Select 1 or more";
         $valid = false;
     }
-    
+
     if ($_POST['country']==='Select country'){
         $error['country']="You need to choose a country";
         $valid = false;
     }
-    
+
     if ($_POST['province']==='Select province'){
         $error['province']="You need to choose a province";
         $valid = false;
     }
-    
+
     if ($_POST['city']==='Select city'){
         $error['city']="You need to choose a city";
         $valid = false;
@@ -61,25 +61,25 @@ function validate_product(){
 
     if($result['date_reception'] && $result['date_expiration']){
         $dates = validate_dates($_POST['date_reception'],$_POST['date_expiration']);
-        
+
         if($dates){
             $error['date_reception'] = 'Reception date must be before of the expiration date';
             $valid = false;
         }
-    }
+    }*/
 
     if ($result != null && $result){
 
         if(!$result['prodname']){
-            $error['prodname'] = "Name must be 2 to 30 letters";
+            $error['prodname'] = "PHP Name must be 2 to 30 letters";
             $valid = false;
         }
-        
+
         if(!$result['prodref']){
             $error['prodref'] = "Reference must be 2 to 30 letters";
             $valid = false;
         }
-        
+        /*
         if(!$result['prodprice']){
             $error['prodprice'] = "Reference must be 2 to 30 letters";
             $valid = false;
@@ -109,20 +109,20 @@ function validate_product(){
             $error['proddesc'] = "Description must be 2 to 90 letters";
             $valid = false;
         }
-      /*  */
+        */
     } else {
         $valid = false;
     };
 
     return $return = array('result' => $valid, 'error' => $error, 'data' => $result );
-    
+
 }//End of function validate product
 
     function validate_dates($start_days, $dayslight) {
 
     $start_day = date("m/d/Y", strtotime($start_days));
     $daylight = date("m/d/Y", strtotime($dayslight));
-    
+
     list($mes_one, $dia_one, $anio_one) = split('/', $start_day);
     list($mes_two, $dia_two, $anio_two) = split('/', $daylight);
 

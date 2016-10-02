@@ -71,14 +71,16 @@ function upload_files() {
         */
 
     ////////////////////////////////////////////////////////////////////////////
-    $upfile = $_SERVER['DOCUMENT_ROOT'].'/01_shop_v1.2/media/'.$_FILES['avatar']['name'];
+    $upfile = $_SERVER['DOCUMENT_ROOT'].'/shop_arevert/media/'.$_FILES['file']['name'];//Cambiado avatar por file
     if (is_uploaded_file($_FILES['file']['tmp_name'])){
         if (is_file($_FILES['file']['tmp_name'])) {
             $idUnico = rand();
+            //$nombreFichero = $_FILES['file']['name'];
             $nombreFichero = $idUnico."-".$_FILES['file']['name'];
             $copiarFichero = true;
             // I use absolute route to move_uploaded_file because this happens when i run ajax
-            $upfile = $_SERVER['DOCUMENT_ROOT'] . '01_shop_v1.2/media/'.$nombreFichero;
+            $upfile = $_SERVER['DOCUMENT_ROOT'].'/shop_arevert/media/'.$nombreFichero;
+            $_POST['filename']=$upfile;
         }else{
                 $error .=   "Invalid File...";
         }
@@ -87,27 +89,29 @@ function upload_files() {
     $i=0;
     if ($error == "") {
         if ($copiarFichero) {
-            if (!move_uploaded_file($_FILES['file']['tmp_name'],$upfile)) {
+            if (!move_uploaded_file($_FILES['file']['tmp_name'], $upfile)) {
                 $error .= "<p>Error al subir la imagen.</p>";
-                return $return=array('resultado'=>false,'error'=>$error,'datos'=>"");
+                return $return=array('result'=>false,'error'=>$error,'data'=>"");
             }
             //We need edit $upfile because now i don't need absolute route.
-            $upfile ='media/'.$nombreFichero;
-            return $return=array('resultado'=>true , 'error'=>$error,'datos'=>$upfile);
+            $upfile ='/shop_arevert/media/'.$nombreFichero;
+            return $return=array('result'=>true , 'error'=>$error,'data'=>$upfile);
         }
         if($_FILES['file']['error'] !== 0) { //Assignarem a l'us default-avatar
-            $upfile = 'media/default-avatar.png';
-            return $return=array('resultado'=>true,'error'=>$error,'datos'=>$upfile);
+            $upfile = '/shop_arevert/media/default-avatar.png';
+            return $return=array('result'=>true,'error'=>$error,'data'=>$upfile);
         }
     }else{
-        return $return=array('resultado'=>false,'error'=>$error,'datos'=>"");
+        return $return=array('result'=>false,'error'=>$error,'data'=>"");
     }
-}
+}//End upload_files
 
 function remove_files(){
-	$name = $_POST["filename"];
-	if(file_exists($_SERVER['DOCUMENT_ROOT'].'/01_shop_v1.2/media/'.$name)){
-		unlink($_SERVER['DOCUMENT_ROOT'].'/01_shop_v1.2/media/'.$name);
+	$name = $_POST['filename'];
+  echo json_encode($name);
+  exit;
+	if(file_exists($_SERVER['DOCUMENT_ROOT'].'/shop_arevert/media/'.$name)){
+		unlink($_SERVER['DOCUMENT_ROOT'].'/shop_arevert/media/'.$name);
 		return true;
 	}else{
 		return false;

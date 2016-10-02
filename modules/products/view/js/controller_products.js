@@ -16,7 +16,7 @@ jQuery.fn.fill_or_clean = function () {
                 $("#prodname").val("Input product name");
             }
         });//Product name end
-/*
+
         if ($("#prodref").val() === "") {
             $("#prodref").val("Input product reference");
             $("#prodref").focus(function () {
@@ -89,7 +89,7 @@ jQuery.fn.fill_or_clean = function () {
             }
         });//Product description end
         //info http://stackoverflow.com/questions/415602/set-value-of-textarea-in-jquery
-        */
+
     });//End of the each
     return this;
 };// End of fill or clean function
@@ -97,7 +97,8 @@ jQuery.fn.fill_or_clean = function () {
 //Solution to : "Uncaught Error: Dropzone already attached."
 Dropzone.autoDiscover = false;
 $(document).ready(function () {
-    console.log("Inside ready");
+    //console.log("Inside ready");
+
     $( "#date_reception" ).datepicker({
         dateFormat: 'dd/mm/yy',
         changeMonth: true, changeYear: true,
@@ -109,12 +110,56 @@ $(document).ready(function () {
       minDate: 0, maxDate: "+36M"
     });
 
-    $(this).fill_or_clean();//Calling the fill or clean Plugin
 
     $('#submit_products').click(function(){
-        console.log("Inside click function");
+        //console.log("Inside click function");
         validate_product();
     });
+
+
+    $.get("modules/products/controller/controller_products.class.php?load_data=true",
+          function(response){
+
+            if(response.product===""){
+                $("#prodname").val('');
+                $("#prodref").val('');
+                /*$("prodprice").val('');
+                $("date_reception").val('');
+                $("date_expiration").val('');
+                $("#country").val('Select country');
+                $("#province").val('Select province');
+                $("#city").val('Select city');
+                $("#proddesc").val('');
+                var inputElements = document.getElementsByClassName('catCheckbox');
+                for (var i =0; i< inputElements.length; i++){
+                    if (inputElements[i].checked){
+                        inputElements[i].checked = false;
+                    }
+                }*/
+            $(this).fill_or_clean();
+            }else{
+              $("#prodname").val(response.product.prodname);
+              $("#prodref").val(response.product.prodref);
+              /*$("prodprice").val(response.product.prodprice);
+              $("date_reception").val(response.product.date_reception);
+              $("date_expiration").val(response.product.date_expiration);
+              var category = response.product.category;
+              var inputElements2 = document.getElementsByClassName('catCheckbox');
+              for (var j = 0; j < category.length; j++){
+                  for (var k = 0; k < inputElements2.length; k++){
+                      if (category[j]===inputElements2[j]){
+                            inputElements2[k].checked = true;
+                      }
+                  }
+              }
+              $("#country").val(response.product.country);
+              $("#province").val(response.product.province);
+              $("#city").val(response.product.city);
+              $("#proddesc").val(response.product.proddesc);*/
+            }
+          }, "json");
+
+
 
     //Dropzone function //////////////////////////////////
     $("#dropzone").dropzone({
@@ -132,7 +177,8 @@ $(document).ready(function () {
                 $("#percent").html('100%');
                 $('.msg').text('').removeClass('msg_error');
                 $('.msg').text('Success Upload image!!').addClass('msg_ok').animate({'right': '300px'}, 300);
-                console.log(response);
+                console.log(file.name);
+                //console.log(response);
             });
         },
         complete: function (file) {
@@ -145,24 +191,25 @@ $(document).ready(function () {
         },
         removedfile: function (file, serverFileName) {
             var name = file.name;
+            
+            console.log(name);
             $.ajax({
                 type: "POST",
                 url: "modules/products/controller/controller_products.class.php?delete=true",
                 data: "filename=" + name,
                 success: function (data) {
+                  console.log(name);
+                  console.log(data);
                     $("#progress").hide();
                     $('.msg').text('').removeClass('msg_ok');
                     $('.msg').text('').removeClass('msg_error');
                     $("#e_avatar").html("");
 
                     var json = JSON.parse(data);
-
                     //console.log(data);
-
-
                     if (json.res === true) {
                         var element;
-                        if ((element == file.previewElement) !== null) {
+                        if ((element = file.previewElement) !== null) {
                             element.parentNode.removeChild(file.previewElement);
                             //alert("Imagen eliminada: " + name);
                         } else {
@@ -170,7 +217,7 @@ $(document).ready(function () {
                         }
                     } else { //json.res == false, elimino la imagen también
                         var element;
-                        if ((element == file.previewElement) !== null) {
+                        if ((element = file.previewElement) !== null) {
                             element.parentNode.removeChild(file.previewElement);
                         } else {
                             false;
@@ -180,50 +227,7 @@ $(document).ready(function () {
                 }
             });
         }
-    });
-    /*
-    $.get("modules/products/controller/controller_products.class.php?load_data=true",
-          function(response){
-
-            if(response.product===""){
-                $("#prodname").val('');
-                $("#prodref").val('');
-                $("prodprice").val('');
-                $("date_reception").val('');
-                $("date_expiration").val('');
-                $("#country").val('Select country');
-                $("#province").val('Select province');
-                $("#city").val('Select city');
-                $("#proddesc").val('');
-                var inputElements = document.getElementsByClassName('catCheckbox');
-                for (var i =0; i< inputElements.length; i++){
-                    if (inputElements[i].checked){
-                        inputElements[i].checked = false;
-                    }
-                }
-            $(this).fill_or_clean();
-            }else{
-              $("#prodname").val(response.product.prodname);
-              $("#prodref").val(response.product.prodref);
-              $("prodprice").val(response.product.prodprice);
-              $("date_reception").val(response.product.date_reception);
-              $("date_expiration").val(response.product.date_expiration);
-              var category = response.product.category;
-              var inputElements2 = document.getElementsByClassName('catCheckbox');
-              for (var j = 0; j < category.length; j++){
-                  for (var k = 0; k < inputElements2.length; k++){
-                      if (category[j]===inputElements2[j]){
-                            inputElements2[k].checked = true;
-                      }
-                  }
-              }
-              $("#country").val(response.product.country);
-              $("#province").val(response.product.province);
-              $("#city").val(response.product.city);
-              $("#proddesc").val(response.product.proddesc);
-            }
-          }, "json");*/
-
+    });//End dropzone
 
 
     var string_reg = /^[0-9a-zA-Z]+[\-'\s]?[0-9a-zA-Z ]+$/;
@@ -249,7 +253,7 @@ $(document).ready(function () {
           return false;
       }
     });
-
+/*
     $("#prodprice").keyup(function () {
       if ($(this).val() !== "" && prod_price.test($(this).val())) {
           $(".error").fadeOut();
@@ -263,12 +267,10 @@ $(document).ready(function () {
           return false;
       }
     });
-
+*/
     //Function triggered when the user click on submit
 
       //console.log("Inside submit user");
-
-
 
 });//End document ready
 
@@ -280,8 +282,8 @@ function validate_product(){
     var result = true;
 
     var prodname = document.getElementById('prodname').value;
-    /*var prodref = document.getElementById('prodref').value;
-    var prodprice = document.getElementById('prodprice').value;
+    var prodref = document.getElementById('prodref').value;
+    /*var prodprice = document.getElementById('prodprice').value;
     var date_reception = document.getElementById('date_reception').value;
     var date_expiration = document.getElementById('date_expiration').value;
     var country = document.getElementById('countrty').value;
@@ -313,7 +315,7 @@ function validate_product(){
       $("#prodname").focus().after("<span class='error'>Name must be 2 to 30 letters</span>");
       return false;
     }
-    /*
+
     if ($("#prodref").val() === "" || $("#prodref").val() === "Input product reference") {
         $("#prodref").focus().after("<span class='error'>Input product reference</span>");
         return false;
@@ -321,7 +323,7 @@ function validate_product(){
         $("#prodref").focus().after("<span class='error'>Reference must be 2 to 30 letters</span>");
         return false;
     }
-
+    /*
     if ($("#prodprice").val() === "" || $("#prodprice").val() === "Input product reference") {
         $("#prodprice").focus().after("<span class='error'>Input product reference</span>");
         return false;
@@ -355,29 +357,30 @@ function validate_product(){
     }*/
     console.log("Before if result");
     if (result){
+      console.log("Inside if result");
       /*var data = {"prodname":prodname, "prodref": prodref, "prodprice": prodprice, "date_reception": date_reception, "date_expiration": date_expiration,
       "country": country, "province": province, "city": city, "proddesc": proddesc, "category": category};*/
-      var data= {"prodname":prodname};
+      var data = {"prodname":prodname, "prodref": prodref};
       var data_products_JSON = JSON.stringify(data);
 
       $.post('modules/products/controller/controller_products.class.php',
           {alta_products_json:data_products_JSON},
       function (response){
-        console.log(response);
+        console.log("Response: "+response);
         console.log(response.prodname);
         if(response.success){
           window.location.href = response.redirect;
         }
     },"json").fail(function(xhr){
-          console.log("Inside error json");
-          console.log(xhr.responseJSON);
-          if(xhr.responseJSON.error.prodname){
+          //console.log("Inside error json");
+          //console.log(xhr.responseJSON);
+          if(xhr.responseJSON.error.prodname)
             $("#prodname").focus().after("<span  class='error1'>" + xhr.responseJSON.error.prodname + "</span>");
-          }
-          if(xhr.responseJSON.error.prodref){
+
+          if(xhr.responseJSON.error.prodref)
             $("#prodref").focus().after("<span  class='error1'>" + xhr.responseJSON.error.prodref + "</span>");
-          }
-          if(xhr.responseJSON.error.prodprice){
+
+        /*  if(xhr.responseJSON.error.prodprice){
             $("#prodprice").focus().after("<span  class='error1'>" + xhr.responseJSON.error.prodprice + "</span>");
           }
           if(xhr.responseJSON.error.date_reception){
@@ -401,7 +404,20 @@ function validate_product(){
           if(xhr.responseJSON.error.category){
             $("#category").focus().after("<span  class='error1'>" + xhr.responseJSON.error.category + "</span>");
           }
-
+          */
+          if (xhr.responseJSON.success1) {
+                if (xhr.responseJSON.img_avatar !== "/shop_arevert/media/default-prodpic.png") {
+                    //$("#progress").show();
+                    //$("#bar").width('100%');
+                    //$("#percent").html('100%');
+                    //$('.msg').text('').removeClass('msg_error');
+                    //$('.msg').text('Success Upload image!!').addClass('msg_ok').animate({ 'right' : '300px' }, 300);
+                }
+            } else {
+                $("#progress").hide();
+                $('.msg').text('').removeClass('msg_ok');
+                $('.msg').text('Error Upload image!!').addClass('msg_error').animate({'right': '300px'}, 300);
+            }
 
     });//End fail function hrx
   }//End if result

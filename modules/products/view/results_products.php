@@ -1,17 +1,16 @@
-<?php
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<h2>ADD PRODUCT</h2>
 
 
-	debugPHP($_POST);
-
-	debugPHP($_SESSION);
-
-	foreach ($_SESSION as $indice => $valor){
-		if($indice==="category"){
-			echo "<br>Category:<br>";
-			$category = $_SESSION["category"];
-			foreach ($category as $indice => $valor)
-				echo "$indice: $valor<br>";
-		}else{
-			echo "$indice : $valor<br>";
-		}
-	}
+<div class="row contact-wrap">
+<div class="status alert alert-success" style="display: none"></div>
+<div id="content"></div>
+<script type="text/javascript" src="modules/products/view/js/list_products.js" ></script>
