@@ -178,7 +178,7 @@ $(document).ready(function () {
                 $('.msg').text('').removeClass('msg_error');
                 $('.msg').text('Success Upload image!!').addClass('msg_ok').animate({'right': '300px'}, 300);
                 console.log(file.name);
-                //console.log(response);
+                console.log("Response: "+response);
             });
         },
         complete: function (file) {
@@ -191,14 +191,14 @@ $(document).ready(function () {
         },
         removedfile: function (file, serverFileName) {
             var name = file.name;
-            
+
             console.log(name);
             $.ajax({
                 type: "POST",
                 url: "modules/products/controller/controller_products.class.php?delete=true",
                 data: "filename=" + name,
                 success: function (data) {
-                  console.log(name);
+                  //console.log(name);
                   console.log(data);
                     $("#progress").hide();
                     $('.msg').text('').removeClass('msg_ok');

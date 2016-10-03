@@ -1,6 +1,8 @@
 <?php
 
 function validate_products($value){
+  //echo json_encode("Inside validate_products on function products inc php");
+//  exit;
     $error = array();
     $valid = true;
     $filter = array(

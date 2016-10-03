@@ -26,6 +26,9 @@ function alta_products(){
 
     $result = validate_product($productJSON);
 
+    echo json_encode($productJSON);
+    exit;
+
     if (empty($_SESSION['result_prodpic'])){
         $_SESSION['result_prodpic'] = array('result' => true, 'error' => "",
       "data" => 'media/default-avatar.png');

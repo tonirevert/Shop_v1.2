@@ -36,7 +36,7 @@ function alta_products(){
 
   if (empty($_SESSION['result_prodpic'])){
       $_SESSION['result_prodpic'] = array('result' => true, 'error' => "",
-    "data" => 'media/default-prodpic.png');
+    "data" => $_SERVER['DOCUMENT_ROOT']."/shop_arevert/media/default-prodpic.png");
   }
 
   $result_prodpic = $_SESSION['result_prodpic'];
