@@ -1,6 +1,8 @@
 <?php
 //utilizar $_FILES['file'] no $_FILES['avatar'] por dropzone.js
+
 function upload_files() {
+
     $error = "";
     $copiarFichero = false;
     $extensiones = array('jpg', 'jpeg', 'gif', 'png', 'bmp');
@@ -74,8 +76,10 @@ function upload_files() {
     $upfile = $_SERVER['DOCUMENT_ROOT'].'/shop_arevert/media/'.$_FILES['file']['name'];//Cambiado avatar por file
     if (is_uploaded_file($_FILES['file']['tmp_name'])){
         if (is_file($_FILES['file']['tmp_name'])) {
-            $idUnico = rand();
-            $nombreFichero = $idUnico."-".$_FILES['file']['name'];
+            //$idUnico = rand();
+            //$nombreFichero = $idUnico."-".$_FILES['file']['name'];
+            $nombreFichero = $_FILES['file']['name'];
+            //$_SESSION['nombreFichero'] = $nombreFichero;
             $copiarFichero = true;
             // I use absolute route to move_uploaded_file because this happens when i run ajax
             $upfile = $_SERVER['DOCUMENT_ROOT']."/shop_arevert/media/".$nombreFichero;
@@ -92,7 +96,7 @@ function upload_files() {
                 return $return=array('result'=>false,'error'=>$error,'data'=>"");
             }
             //We need edit $upfile because now i don't need absolute route.
-            $upfile = '/media/'.$nombreFichero;
+            $upfile = '/shop_arevert/media/'.$nombreFichero;
             return $return=array('result'=>true , 'error'=>$error,'data'=>$upfile);
         }
         if($_FILES['file']['error'] !== 0) { //Assignarem a l'us default-avatar
@@ -105,6 +109,7 @@ function upload_files() {
 }//End upload_files
 
 function remove_files(){
+
 	$name = $_POST['filename'];
   echo json_encode($name);
   exit;

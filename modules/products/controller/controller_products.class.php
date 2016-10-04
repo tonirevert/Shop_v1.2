@@ -44,7 +44,7 @@ function alta_products(){
   if(($result['result']) && ($result_prodpic['result'])){
       $arrArgument = array(
         'prodname' => $result['data']['prodname'],
-
+        'prodref' => $result['data']['prodref'],
         'prodpic' => $result_prodpic['data']
       );
       $message = "Product has been successfull registered";
@@ -76,13 +76,14 @@ function alta_products(){
 //////////////////////////////////////////////////////////////// load
 if (isset($_GET["load"]) && $_GET["load"] == true) {
     $jsondata = array();
-    if (isset($_SESSION['user'])) {
+    if (isset($_SESSION['product'])) {
         //echo debug($_SESSION['user']);
-        $jsondata["user"] = $_SESSION['user'];
+        $jsondata["product"] = $_SESSION['product'];
+        
     }
-    if (isset($_SESSION['msje'])) {
+    if (isset($_SESSION['message'])) {
         //echo $_SESSION['msje'];
-        $jsondata["msje"] = $_SESSION['msje'];
+        $jsondata["message"] = $_SESSION['message'];
     }
     close_session();
     echo json_encode($jsondata);
@@ -90,8 +91,8 @@ if (isset($_GET["load"]) && $_GET["load"] == true) {
 }
 
 function close_session() {
-    unset($_SESSION['user']);
-    unset($_SESSION['msje']);
+    unset($_SESSION['product']);
+    unset($_SESSION['message']);
     $_SESSION = array(); // Destruye todas las variables de la sesión
     session_destroy(); // Destruye la sesión
 }

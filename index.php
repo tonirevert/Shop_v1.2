@@ -1,6 +1,6 @@
 <?php
   session_start();
-    $_SESSION['result_product'] = array();
+    $_SESSION['result_prodpic'] = array();
     require_once("view/inc/header.php");
     require_once("view/inc/menu.php");
 
