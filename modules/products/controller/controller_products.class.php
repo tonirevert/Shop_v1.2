@@ -36,7 +36,7 @@ function alta_products(){
 
   if (empty($_SESSION['result_prodpic'])){
       $_SESSION['result_prodpic'] = array('result' => true, 'error' => "",
-    "data" => $_SERVER['DOCUMENT_ROOT']."/shop_arevert/media/default-prodpic.png");
+    "data" => "/shop_arevert/media/default-prodpic.png");
   }
 
   $result_prodpic = $_SESSION['result_prodpic'];
@@ -58,12 +58,12 @@ function alta_products(){
       echo json_encode($jsondata);
       exit;
   }else{
-    $jsondata["success"] = false;
+    $jsondata['success'] = false;
     $jsondata['error'] = $result['error'];
     $jsondata['error_prodpic'] = $result_prodpic['error'];
 
     $jsondata['success1'] = false;
-    if ($result_prodpic['result']){
+    if ($result_prodpic['result']) {
         $jsondata['success1'] = true;
         $jsondata['prodpic'] = $result_prodpic['data'];
     }
@@ -79,7 +79,7 @@ if (isset($_GET["load"]) && $_GET["load"] == true) {
     if (isset($_SESSION['product'])) {
         //echo debug($_SESSION['user']);
         $jsondata["product"] = $_SESSION['product'];
-        
+
     }
     if (isset($_SESSION['message'])) {
         //echo $_SESSION['msje'];

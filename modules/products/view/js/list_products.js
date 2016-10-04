@@ -49,9 +49,9 @@ function load_users_get_v2() {
 }
 
 $(document).ready(function () {
-    //load_users_ajax();
+    load_users_ajax();
     //load_users_get_v1();
-    load_users_get_v2();
+    //load_users_get_v2();
 });
 
 function print_product(data) {
@@ -81,7 +81,7 @@ function print_product(data) {
     //console.log(cad);
     //var cad = cad.toLowerCase();
     var img = document.createElement("div");
-    var html = '<img src="' + cad + '" height="75" width="75"> ';
+    var html = '<img src="' + cad + '" height="100" width="100"> ';
     img.innerHTML = html;
     //alert(html);
 
@@ -89,6 +89,6 @@ function print_product(data) {
     parrafo.appendChild(message);
     parrafo.appendChild(prodname);
     parrafo.appendChild(prodref);
-
+    content.appendChild(div_product);
     content.appendChild(img);
 }
