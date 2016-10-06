@@ -57,8 +57,7 @@ $(document).ready(function () {
 function print_product(data) {
     //alert(data.user.avatar);
     console.log(data);
-    console.log(data.product);
-    console.log(data.product.prodname);
+    //console.log(data.product);
     var content = document.getElementById("content");
     var div_product = document.createElement("div");
     var parrafo = document.createElement("p");
@@ -75,6 +74,44 @@ function print_product(data) {
     prodref.innerHTML = "prodref = ";
     prodref.innerHTML += data.product.prodref;
 
+    var prodprice = document.createElement("div");
+    prodprice.innerHTML = "prodprice = ";
+    prodprice.innerHTML += data.product.prodprice;
+
+    var date_reception = document.createElement("div");
+    date_reception.innerHTML = "date_reception = ";
+    date_reception.innerHTML += data.product.date_reception;
+
+    var date_expiration = document.createElement("div");
+    date_expiration.innerHTML = "date_expiration = ";
+    date_expiration.innerHTML += data.product.date_expiration;
+
+    var category = document.createElement("div");
+    category.innerHTML = "category = ";
+    for(var i =0;i < data.product.category.length;i++){
+    category.innerHTML += " - "+data.product.category[i];
+    }
+
+    var packaging = document.createElement("div");
+    packaging.innerHTML = "packaging = ";
+    packaging.innerHTML += data.product.packaging;
+
+    var country = document.createElement("div");
+    country.innerHTML = "country = ";
+    country.innerHTML += data.product.country;
+
+    var province = document.createElement("div");
+    province.innerHTML = "province = ";
+    province.innerHTML += data.product.province;
+
+    var city = document.createElement("div");
+    city.innerHTML = "city = ";
+    city.innerHTML += data.product.city;
+
+    var proddesc = document.createElement("div");
+    proddesc.innerHTML = "proddesc = ";
+    proddesc.innerHTML += data.product.proddesc;
+
     //arreglar ruta IMATGE!!!!!
 
     var cad = data.product.prodpic;
@@ -89,6 +126,15 @@ function print_product(data) {
     parrafo.appendChild(message);
     parrafo.appendChild(prodname);
     parrafo.appendChild(prodref);
+    parrafo.appendChild(prodprice);
+    parrafo.appendChild(date_reception);
+    parrafo.appendChild(date_expiration);
+    parrafo.appendChild(category);
+    parrafo.appendChild(packaging);
+    parrafo.appendChild(country);
+    parrafo.appendChild(province);
+    parrafo.appendChild(city);
+    parrafo.appendChild(proddesc);
     content.appendChild(div_product);
     content.appendChild(img);
 }

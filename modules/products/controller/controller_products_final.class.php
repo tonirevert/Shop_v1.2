@@ -49,7 +49,7 @@ function alta_products(){
           'province' => $result['data']['province'],
           'city' => $result['data']['city'],
           'proddesc' => $result['data']['proddesc'],
-          'prodpic' => $result_prodpic['data'];
+          'prodpic' => $result_prodpic['data']
         );
 
         $message = "Product has been successfull registered";

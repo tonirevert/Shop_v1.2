@@ -9,19 +9,7 @@ if ((isset($_GET["upload"])) && ($_GET["upload"] == true)){
   //echo json_encode("Hello world from upload in controller_products php");
   $result_prodpic = upload_files();
   $_SESSION['result_prodpic'] = $result_prodpic;
-    echo json_encode($result_prodpic);
-}
-
-if ((isset($_GET["delete"])) && ($_GET["delete"] == true)){
-    //echo json_encode("Hello world from delete in controller_products.class.php");
-    $_SESSION['result_prodpic'] = array();
-    $result = remove_files();
-    if($result === true){
-      echo json_encode(array("res" => true));
-    }else{
-      echo json_encode(array("res" => false));
-    }
-    //echo json_decode($result);
+    //echo json_encode($result_prodpic);
 }
 
 if ((isset($_POST['alta_products_json']))) {
@@ -35,16 +23,24 @@ function alta_products(){
   $result= validate_products($producstJSON);
 
   if (empty($_SESSION['result_prodpic'])){
-      $_SESSION['result_prodpic'] = array('result' => true, 'error' => "",
-    "data" => "/shop_arevert/media/default-prodpic.png");
+      $_SESSION['result_prodpic'] = array('result' => true, 'error' => "", "data" => "/shop_arevert/media/default-prodpic.png");
   }
 
   $result_prodpic = $_SESSION['result_prodpic'];
 
-  if(($result['result']) && ($result_prodpic['result'])){
+  if(($result['result']) && ($result_prodpic['result'])) {
       $arrArgument = array(
         'prodname' => $result['data']['prodname'],
         'prodref' => $result['data']['prodref'],
+        'prodprice' => $result['data']['prodprice'],
+        'date_reception' => $result['data']['date_reception'],
+        'date_expiration' => $result['data']['date_expiration'],
+        'category' => $result['data']['category'],
+        'packaging' => $result['data']['packaging'],
+        'country' => $result['data']['country'],
+        'province' => $result['data']['province'],
+        'city' => $result['data']['city'],
+        'proddesc' => $result['data']['proddesc'],
         'prodpic' => $result_prodpic['data']
       );
       $message = "Product has been successfull registered";
@@ -71,6 +67,18 @@ function alta_products(){
     echo json_encode($jsondata);
   }//End else
 }//End alta products
+
+if ((isset($_GET["delete"])) && ($_GET["delete"] == true)){
+    //echo json_encode("Hello world from delete in controller_products.class.php");
+    $_SESSION['result_prodpic'] = array();
+    $result = remove_files();
+    if($result === true){
+      echo json_encode(array("res" => true));
+    }else{
+      echo json_encode(array("res" => false));
+    }
+    //echo json_decode($result);
+}
 
 
 //////////////////////////////////////////////////////////////// load
@@ -101,14 +109,13 @@ function close_session() {
 if ((isset($_GET["load_data"])) && ($_GET["load_data"] == true)) {
     $jsondata = array();
 
-    if (isset($_SESSION['user'])) {
-        $jsondata["user"] = $_SESSION['user'];
+    if (isset($_SESSION['product'])) {
+        $jsondata["product"] = $_SESSION['product'];
         echo json_encode($jsondata);
         exit;
     } else {
-        $jsondata["user"] = "";
+        $jsondata["product"] = "";
         echo json_encode($jsondata);
         exit;
     }
-}
-*/
+}*/

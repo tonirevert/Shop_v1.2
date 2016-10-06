@@ -76,10 +76,10 @@ function upload_files() {
     $upfile = $_SERVER['DOCUMENT_ROOT'].'/shop_arevert/media/'.$_FILES['file']['name'];//Cambiado avatar por file
     if (is_uploaded_file($_FILES['file']['tmp_name'])){
         if (is_file($_FILES['file']['tmp_name'])) {
-            //$idUnico = rand();
-            //$nombreFichero = $idUnico."-".$_FILES['file']['name'];
-            $nombreFichero = $_FILES['file']['name'];
-            //$_SESSION['nombreFichero'] = $nombreFichero;
+            $idUnico = rand();
+            $nombreFichero = $idUnico."-".$_FILES['file']['name'];
+            //$nombreFichero = $_FILES['file']['name'];
+            $_SESSION['nombreFichero'] = $nombreFichero;
             $copiarFichero = true;
             // I use absolute route to move_uploaded_file because this happens when i run ajax
             $upfile = $_SERVER['DOCUMENT_ROOT']."/shop_arevert/media/".$nombreFichero;
@@ -111,10 +111,10 @@ function upload_files() {
 function remove_files(){
 
 	$name = $_POST['filename'];
-  echo json_encode($name);
-  exit;
-	if(file_exists($_SERVER['DOCUMENT_ROOT'].'/shop_arevert/media/'.$name)){
-		unlink($_SERVER['DOCUMENT_ROOT'].'/shop_arevert/media/'.$name);
+  //echo json_encode($name);
+  //exit;
+	if(file_exists($_SERVER['DOCUMENT_ROOT'].'/shop_arevert/media/'.$_SESSION['nombreFichero'])){
+		unlink($_SERVER['DOCUMENT_ROOT'].'/shop_arevert/media/'.$_SESSION['nombreFichero']);
 		return true;
 	}else{
 		return false;

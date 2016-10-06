@@ -47,23 +47,26 @@
          value=""/>
          <div id="error_date_expiration"></div>
        </td>
+
 		</tr>
 		<tr>
+      <div class="form-group">
            <td>Category: </td>
            <td>
               1 <input type="checkbox" name="category[]" class="catCheckbox" value="cat1">
 		          2 <input type="checkbox" name="category[]" class="catCheckbox" value="cat2">
 			        3 <input type="checkbox" name="category[]" class="catCheckbox" value="cat3">
-			        4 <input type="checkbox" name="category[]" class="catCheckbox" value="cat4">
-			  <div id="error_category"></div>
+			        4 <input type="checkbox" name="category[]" class="catCheckbox" value="cat4" id="error_category">
+			  <!--<td><div id="error_category"></div></td>-->
+      </div>
            </td>
         </tr>
         <tr>
             <td>Packaging:</td>
             <td>
-                None <input name="packaging" type="radio" value="none" checked>
-				        Boxed <input name="packaging" type="radio" value="boxed">
-				        Bagged <input name="packaging" type="radio" value="bagged">
+                None <input name="packaging" id="packaging" type="radio" class="packaging" value="none" checked>
+				        Boxed <input name="packaging" id="packaging" type="radio" class="packaging" value="boxed">
+				        Bagged <input name="packaging" id="packaging" type="radio" class="packaging" value="bagged">
             </td>
         </tr>
         <tr><td>Origin:</td></tr>
@@ -77,7 +80,7 @@
 				<option value="uk">UK</option>
 				<option value="ireland">Ireland</option>
 				</select>
-				<div id="error_country"></div>
+				<td><div id="error_country"></div></td>
 			</td>
         </tr>
         <tr>
@@ -90,13 +93,13 @@
 				<option value="sevilla">Sevilla</option>
 				<option value="valencia">Valencia</option>
 				</select>
-				<div id="error_province"></div>
+				<td><div id="error_province"></div>-</td>
 			</td>
         </tr>
         <tr>
             <td>City: </td>
 			  <td>
-			    <select name="city" id="city">
+			    <select name="city" id="city" id="error_city">
 			    <option selected>Select city</option>
 				<option value="ontinyent">Ontinyent</option>
 				<option value="barcelona">Barcelona</option>
@@ -104,7 +107,7 @@
 				<option value="sevilla">Sevilla</option>
 				<option value="valencia">Valencia</option>
 				</select>
-				<div id="error_city"></div>
+				<td><div id="error_city"></div></td>
 			</td>
         </tr>
         <tr>
@@ -114,16 +117,21 @@
              <div id="error_proddesc"></div>
            </td>
         </tr>
-    </table>
-    <div class="form-group" id="progress">
-    <div id="bar"></div>
-    <div id="percent">0%</div >
-    </div>
+        <tr>
+          <td>
+          </td>
+          <td>
+            <div class="form-group" id="progress">
+            <div id="bar"></div>
+            <div id="percent">0%</div >
+            </div>
 
-    <div class="msg"></div>
-    <br/>
-    <div id="dropzone" class="dropzone"></div><br/>
-    <br/>
+            <div class="msg"></div>
+            <br/>
+            <div id="dropzone" class="dropzone"></div><br/>
+          </td>
+        </tr>
+    </table>
     <br/>
     <button type="button" name="submit_products" id="submit_products" value="submit">
       Submit product
