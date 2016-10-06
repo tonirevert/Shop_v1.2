@@ -101,11 +101,13 @@ $(document).ready(function () {
 
     $( "#date_reception" ).datepicker({
         dateFormat: 'dd/mm/yy',
+        //dateFormat: 'mm-dd-yy',
         changeMonth: true, changeYear: true,
         minDate: -90, maxDate: "+1M"
     });
     $( "#date_expiration" ).datepicker({
       dateFormat: 'dd/mm/yy',
+      //dateFormat: 'mm-dd-yy',
       changeMonth: true, changeYear: true,
       minDate: 0, maxDate: "+36M"
     });
@@ -383,7 +385,7 @@ function validate_product(){
     if (result){
       console.log("Inside if result");
 
-      var data = {"prodname": prodname, "prodref": prodref, "prodprice": prodprice, "date_reception": date_reception, "date_expiration": date_expiration, "category": category,"packaging": packaging,"country": country, "province": province, "city": city, "proddesc": proddesc};
+      var data = {"prodname": prodname, "prodref": prodref, "prodprice": prodprice, "date_expiration": date_expiration, "date_reception": date_reception, "category": category,"packaging": packaging,"country": country, "province": province, "city": city, "proddesc": proddesc};
       console.log(data); //Apleguen les dades be
       var data_products_JSON = JSON.stringify(data);
 

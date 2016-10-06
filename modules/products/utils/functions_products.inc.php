@@ -47,7 +47,7 @@ function validate_products($value){
     }
 
     if($result['date_reception'] && $result['date_expiration']){
-        $dates = validate_dates2($result['date_reception'],$result['date_expiration']);
+        $dates = validate_dates3($result['date_reception'],$result['date_expiration']);
 
         if($dates){
             $error['date_expiration'] = 'Reception date must be before of the expiration date';
@@ -108,9 +108,11 @@ function validate_products($value){
 
   function val_dates($datetime1,$datetime2){
 
-    $date1 = new DateTime($datetime1);
-    $date2 = new DateTime($datetime2);
-    $interval = $date1->diff($date2);
+    $date1 = new DateTime();
+    $newDate1 = $date1->createFromFormat('d/m/Y', $datetime1);
+    $date2 = new DateTime();
+    $newDate2 = $date2->createFromFormat('d/m/Y', $datetime2);
+    var_dump($newDate1->diff($newDate2));
 
     if($date1 <= $date2){
       return true;
@@ -153,15 +155,16 @@ function validate_dates2($first_date,$second_date){
 }
 
 function validate_dates3($date1,$date2){
-  $recept_dt = new DateTime($date1);
-  $expire_dt = new DateTime($date2);
+  $fixedDate = $date1;
+  $variableDate = $date2;
+  // Now we do our timestamping magic!
+  $fixedDate = implode('', array_reverse(explode('/', $fixedDate)));
+  $variableDate = implode('', array_reverse(explode('/', $variableDate)));
 
-  if ($recept_dt <= $expire_dt) {
-      return true;
-   }else{
-      return false;
-   }
-
+    if ($variableDate < $fixedDate){ // 20100428 < 20090501
+        return true;
+    }
+        return false;
 }
 
 function check_in_range($start_date, $end_date){
