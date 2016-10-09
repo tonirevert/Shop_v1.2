@@ -326,7 +326,7 @@ function validate_product(){
     var string_description = /^(.){1,500}$/;
 
     $(".error").remove();
-    if ($("#prodname").val() === "" || $("#prodname").val() === "Input product name"){
+    if ($("#prodname").val() === "" || $("#prodname").val() === "Product name"){
       $("#prodname").focus().after("<span class='error'>Input product name</span>");
       return false;
     }else if(!string_reg.test($("#prodname").val())){
@@ -334,7 +334,7 @@ function validate_product(){
       return false;
     }
 
-    if ($("#prodref").val() === "" || $("#prodref").val() === "Input product reference") {
+    if ($("#prodref").val() === "" || $("#prodref").val() === "Reference") {
         $("#prodref").focus().after("<span class='error'>Input product reference</span>");
         return false;
     } else if (!prod_ref.test($("#prodref").val())) {
@@ -342,15 +342,15 @@ function validate_product(){
         return false;
     }
 
-    if ($("#prodprice").val() === "" || $("#prodprice").val() === "Input product reference") {
-        $("#prodprice").focus().after("<span class='error'>Input product reference</span>");
+    if ($("#prodprice").val() === "" || $("#prodprice").val() === "Price") {
+        $("#prodprice").focus().after("<span class='error'>Input product price</span>");
         return false;
     } else if (!prod_price.test($("#prodprice").val())) {
         $("#prodprice").focus().after("<span class='error'>Price must be numbers (like 1.2)</span>");
         return false;
     }
 
-    if ($("#date_reception").val() === "" || $("#date_reception").val() === "Input product reference") {
+    if ($("#date_reception").val() === "" || $("#date_reception").val() === "Reception date") {
         $("#date_reception").focus().after("<span class='error'>JS Input product reception date</span>");
         return false;
     } else if (!val_dates.test($("#date_reception").val())) {
@@ -358,22 +358,15 @@ function validate_product(){
         return false;
     }
 
-    if ($("#date_expiration").val() === "" || $("#date_expiration").val() === "Input product reference") {
-        $("#date_expiration").focus().after("<span class='error'>JS Input product reception date</span>");
+    if ($("#date_expiration").val() === "" || $("#date_expiration").val() === "Expiration date") {
+        $("#date_expiration").focus().after("<span class='error'>JS Input product expiration date</span>");
         return false;
     } else if (!val_dates.test($("#date_expiration").val())) {
         $("#date_expiration").focus().after("<span class='error'>JS Input product expiration date</span>");
         return false;
     }
-/*
-    if ($("#country").val()  === "Select country") {
-        $("#country").focus().after("<span class='error'>Choose one country</span>");
-        return false;
-    } else {
-        return true;
-    }
-*/
-    if ($("#proddesc").val() === "" || $("#proddesc").val() === "Input product description") {
+
+    if ($("#proddesc").val() === "" || $("#proddesc").val() === "Product description") {
         $("#proddesc").focus().after("<span class='error'>Input product description</span>");
         return false;
     } else if (!string_description.test($("#proddesc").val())) {
