@@ -18,8 +18,7 @@ if ((isset($_POST['alta_products_json']))) {
 
 function alta_products(){
   $jsondata = array();
-  $producstJSON = json_decode($_POST["alta_products_json"], true);//Tenia mal el nombre!!!!
-
+  $producstJSON = json_decode($_POST["alta_products_json"], true);
   $result= validate_products($producstJSON);
 
   if (empty($_SESSION['result_prodpic'])){
@@ -104,7 +103,7 @@ function close_session() {
     $_SESSION = array(); // Destruye todas las variables de la sesión
     session_destroy(); // Destruye la sesión
 }
-/*
+
 /////////////////////////////////////////////////// load_data
 if ((isset($_GET["load_data"])) && ($_GET["load_data"] == true)) {
     $jsondata = array();
@@ -118,4 +117,4 @@ if ((isset($_GET["load_data"])) && ($_GET["load_data"] == true)) {
         echo json_encode($jsondata);
         exit;
     }
-}*/
+}

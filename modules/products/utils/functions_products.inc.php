@@ -50,9 +50,15 @@ function validate_products($value){
         $dates = validate_dates3($result['date_reception'],$result['date_expiration']);
 
         if($dates){
-            $error['date_expiration'] = 'Reception date must be before of the expiration date';
+            $error['date_reception'] = 'Reception date must be before of the expiration date';
+            $error['date_expiration'] = 'Expiration date must be after reception date';
             $valid = false;
         }
+    }
+
+    if($result['prodname']==='Input product name'){
+            $error['prodname']="Name must be 2 to 30 letters";
+            $valid = false;
     }
 
     if ($result['country']==='Select country'){
@@ -70,6 +76,11 @@ function validate_products($value){
             $valid = false;
         }
 
+    if ($result['proddesc']==='Input product description'){
+            $error['proddesc']="Please enter a description";
+            $valid = false;
+    }
+
     if ($result != null && $result){
 
         if(!$result['prodname']){
@@ -83,8 +94,28 @@ function validate_products($value){
         }
 
         if(!$result['prodprice']){
-            $error['prodprice'] = "Reference must be 2 to 30 letters";
+            $error['prodprice'] = "Price must be numbers (like 1.2)";
             $valid = false;
+        }
+
+        if (!$result['date_reception']) {
+            if ($result['date_reception'] == "") {
+                $error['date_reception'] = "Reception date can't be empty";
+                $valid = false;
+            } else {
+                $error['date_reception'] = 'error reception format date (dd/mm/yyyy)';
+                $valid = false;
+            }
+        }
+
+        if (!$result['date_expiration']) {
+            if ($result['date_expiration'] == "") {
+                $error['date_expiration'] = "Expiration date can't be empty";
+                $valid = false;
+            } else {
+                $error['date_expiration'] = 'error format date (dd/mm/yyyy)';
+                $valid = false;
+            }
         }
 
         if(!$result['proddesc']){

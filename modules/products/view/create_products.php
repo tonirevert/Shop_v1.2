@@ -15,48 +15,49 @@
     <table>
         <tr>
            <td>Name: </td>
-           <td><input type="text" name="prodname" id="prodname" required="required" placeholder="Product name"
+           <td id="error_prodname"><input type="text" name="prodname" id="prodname" required="required" placeholder="Product name"
              value=""/>
-             <div id="error_prodname"></div>
+             <div></div>
            </td>
         </tr>
         <tr>
            <td>Reference: </td>
-           <td><input type="text" name="prodref" id="prodref" required="required" placeholder="Reference"
+           <td id="error_prodref"><input type="text" name="prodref" id="prodref" required="required" placeholder="Reference"
             value=""/>
-            <div id="error_prodref"></div>
+            <div ></div>
            </td>
+
         </tr>
         <tr>
            <td>Price: </td>
-           <td><input type="text" name="prodprice" id="prodprice" required="required" placeholder="Price"
+           <td id="error_prodprice"><input type="text" name="prodprice" id="prodprice" required="required" placeholder="Price"
             value=""/>
-            <div id="error_prodprice"></div>
+            <div ></div>
           </td>
         </tr>
         <tr>
 		   <td>Reception date: </td>
-		   <td><input type="text" name="date_reception" id="date_reception" placeholder="Reception date" readonly="readonly"
+		   <td id="error_date_reception"><input type="text" name="date_reception" id="date_reception" placeholder="Reception date" readonly="readonly"
          value=""/>
-         <div id="error_date_reception"></div>
+         <div ></div>
        </td>
 		</tr>
 		<tr>
 		   <td>Expiration date: </td>
-		   <td><input type="text" name="date_expiration" id="date_expiration" placeholder="Expiration date" readonly="readonly"
+		   <td id="error_date_expiration"><input type="text" name="date_expiration" id="date_expiration" placeholder="Expiration date" readonly="readonly"
          value=""/>
-         <div id="error_date_expiration"></div>
+         <div ></div>
        </td>
 
 		</tr>
 		<tr>
       <div class="form-group">
            <td>Category: </td>
-           <td>
+           <td id="error_category">
               1 <input type="checkbox" name="category[]" class="catCheckbox" value="cat1">
 		          2 <input type="checkbox" name="category[]" class="catCheckbox" value="cat2">
 			        3 <input type="checkbox" name="category[]" class="catCheckbox" value="cat3">
-			        4 <input type="checkbox" name="category[]" class="catCheckbox" value="cat4" id="error_category">
+			        4 <input type="checkbox" name="category[]" class="catCheckbox" value="cat4">
 			  <!--<td><div id="error_category"></div></td>-->
       </div>
            </td>
@@ -117,9 +118,9 @@
 			</td>
         <tr>
            <td>Description: </td>
-           <td><textarea rows="4" cols="50" name="proddesc" id="proddesc" placeholder="Product description"
+           <td id="error_proddesc"><textarea rows="4" cols="50" name="proddesc" id="proddesc" placeholder="Product description"
              value=""></textarea>
-             <div id="error_proddesc"></div>
+             <div></div>
            </td>
         </tr>
         <tr>
