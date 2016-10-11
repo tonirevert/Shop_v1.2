@@ -1,13 +1,13 @@
 <?php
-echo json_encode("products_bll.class.singleton.php");
-exit;
-/*
+//echo json_encode("products_bll.class.singleton.php");
+//exit;
+
 $path = $_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/';
 define('SITE_ROOT', $path);
 define('MODEL_PATH', SITE_ROOT . 'model/');
 
 require(MODEL_PATH . "Db.class.singleton.php");
-require(SITE_ROOT . "modules/products/model/DAO/user_dao.class.singleton.php");
+require(SITE_ROOT . "modules/products/model/DAO/products_dao.class.singleton.php");
 
 class products_bll{
 
@@ -31,4 +31,3 @@ class products_bll{
       return $this->dao->create_product_DAO($this->db, $arrArgument);
     }
 }
-*/
