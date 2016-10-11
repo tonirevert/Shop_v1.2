@@ -2,11 +2,11 @@
 session_start();
 include ($_SERVER['DOCUMENT_ROOT'] . "/shop_arevert/modules/products/utils/functions_products.inc.php");
 include ($_SERVER['DOCUMENT_ROOT'] . "/shop_arevert/utils/upload.php");
-//include 'modules/products/utils/functions_products.inc.php';
-//include 'utils/upload.php';
+include ($_SERVER['DOCUMENT_ROOT'] . "/shop_arevert/utils/common.inc.php");
+
 
 if ((isset($_GET["upload"])) && ($_GET["upload"] == true)){
-  //echo json_encode("Hello world from upload in controller_products php");
+
   $result_prodpic = upload_files();
   $_SESSION['result_prodpic'] = $result_prodpic;
     //echo json_encode($result_prodpic);
@@ -42,7 +42,15 @@ function alta_products(){
         'proddesc' => $result['data']['proddesc'],
         'prodpic' => $result_prodpic['data']
       );
+
+      $arrValue = false;
+      $path_model = $_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/modules/products/model/model/';
+      $arrValue = loadModel($path_model, "products_model", "create_product", $arrArgument);
+      echo json_encode($arrValue);
+      die();
+
       $message = "Product has been successfull registered";
+
 
       $_SESSION['product'] = $arrArgument;
       $_SESSION['message'] = $message;

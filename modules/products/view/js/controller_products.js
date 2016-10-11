@@ -374,9 +374,9 @@ function validate_product(){
         return false;
     }
 
-    console.log("Before if result");
+    //console.log("Before if result");
     if (result){
-      console.log("Inside if result");
+      //console.log("Inside if result");
 
       var data = {"prodname": prodname, "prodref": prodref, "prodprice": prodprice, "date_expiration": date_expiration, "date_reception": date_reception, "category": category,"packaging": packaging,"country": country, "province": province, "city": city, "proddesc": proddesc};
       console.log(data); //Apleguen les dades be
@@ -385,7 +385,7 @@ function validate_product(){
       $.post('modules/products/controller/controller_products.class.php',
           {alta_products_json:data_products_JSON},
       function (response){
-        console.log(response);
+        console.log(response);//Aqui muestra los resultados de PHP
         //console.log(response.prodname);
         if(response.success){
           window.location.href = response.redirect;
