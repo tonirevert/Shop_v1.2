@@ -1,7 +1,7 @@
 <?php
-echo json_encode("products_dao.class.singleton.php");
-exit;
-/*
+//echo json_encode("products_dao.class.singleton.php");
+//exit;
+
 class productDAO {
 
     static $_instance;
@@ -48,14 +48,13 @@ class productDAO {
         }
 
         $sql = "INSERT INTO products (prodname, prodref, prodprice, date_reception,"
-                . " date_expiration, packaging, country, province, city, proddesc,"
-                . " prodpic, cat1, cat2, cat3, cat4) VALUES ('$prodname', '$prodref',"
+                . " date_expiration, cat1, cat2, cat3, cat4, packaging, country, province,"
+                . " city, proddesc, prodpic) VALUES ('$prodname', '$prodref',"
                 . " '$prodprice', '$date_reception', '$date_expiration', '$cat1', "
-                . " '$cat2', '$cat3', '$cat4', '$packaging', '$country', $province,"
+                . " '$cat2', '$cat3', '$cat4', '$packaging', '$country', '$province',"
                 . " '$city', '$proddesc', '$prodpic')";
 
         return $db->ejecutar($sql);
 
     }
 }
-*/

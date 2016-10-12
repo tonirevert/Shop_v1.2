@@ -46,10 +46,15 @@ function alta_products(){
       $arrValue = false;
       $path_model = $_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/modules/products/model/model/';
       $arrValue = loadModel($path_model, "products_model", "create_product", $arrArgument);
-      echo json_encode($arrValue);
-      die();
+      //echo json_encode($arrValue);
+      //die();
 
-      $message = "Product has been successfull registered";
+      if ($arrValue){
+          $message = "Product has been successfull registered";
+      }else{
+          $message = "Problem ocurred regitering a porduct";
+      }
+
 
 
       $_SESSION['product'] = $arrArgument;
