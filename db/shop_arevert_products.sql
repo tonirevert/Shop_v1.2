@@ -1,10 +1,10 @@
 CREATE DATABASE  IF NOT EXISTS `shop_arevert` /*!40100 DEFAULT CHARACTER SET latin1 */;
 USE `shop_arevert`;
--- MySQL dump 10.13  Distrib 5.7.9, for linux-glibc2.5 (x86_64)
+-- MySQL dump 10.13  Distrib 5.5.52, for debian-linux-gnu (x86_64)
 --
--- Host: localhost    Database: rural_shop
+-- Host: 127.0.0.1    Database: shop_arevert
 -- ------------------------------------------------------
--- Server version	5.6.27-0ubuntu0.15.04.1
+-- Server version	5.5.52-0ubuntu0.14.04.1
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
@@ -18,7 +18,7 @@ USE `shop_arevert`;
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `users`
+-- Table structure for table `products`
 --
 
 DROP TABLE IF EXISTS `products`;
@@ -45,13 +45,13 @@ CREATE TABLE `products` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `users`
+-- Dumping data for table `products`
 --
 
-LOCK TABLES `users` WRITE;
-/*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES ('Ana','Marti Saborit','20/12/1996','20/12/2014','anarcar@gmail.com','anarcar','anarcar','anarcar','A1',0,0,1,1,'/PhpProject1/media/default-avatar.png'),('Jose','Rios Tolsa','20/12/1996','20/12/2014','josema@gmail.com','josema','josema','josema','A1',0,0,1,1,'/PhpProject1/media/default-avatar.png'),('Lara','Tormo Bas','20/12/1996','20/12/2014','lareto@gmail.com','lareto','lareto','lareto','A1',0,0,1,1,'/PhpProject1/media/default-avatar.png'),('Miguel','Asdasd','09/01/1996','09/01/2015','mi@gmail.com','calle12 n58 pta3','meganeo','asdasd','A1',1,1,0,0,'/PhpProject1/media/default-avatar.png'),('Miguel','Gandia','10/01/1996','10/01/2015','miguel.gh96@gmai.com','avalmaig n59 pta3','miguel','asdasd','A1',1,1,1,0,'/PhpProject1/media/default-avatar.png');
-/*!40000 ALTER TABLE `users` ENABLE KEYS */;
+LOCK TABLES `products` WRITE;
+/*!40000 ALTER TABLE `products` DISABLE KEYS */;
+INSERT INTO `products` VALUES ('Nom del article','1231654895','200','01/10/2016','28/10/2016',0,1,0,0,'boxed','spain','madrid','madrid','dfsgdfgdsfgdfsgdfsg','/shop_arevert/media/default-prodpic.png');
+/*!40000 ALTER TABLE `products` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -62,3 +62,5 @@ UNLOCK TABLES;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2016-10-13 17:28:30
