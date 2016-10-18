@@ -76,10 +76,6 @@
 			  <td id="error_country">
 			    <select name="country" id="country">
 			    <option selected>Select country</option>
-				<option value="spain">Spain</option>
-				<option value="portugal">Portugal</option>
-				<option value="uk">UK</option>
-				<option value="ireland">Ireland</option>
 				</select>
 				<div ></div>
 			</td>
@@ -92,10 +88,6 @@
 			  <td id="error_province">
 			    <select name="province" id="province">
 			    <option selected>Select province</option>
-				<option value="barcelona">Barcelona</option>
-				<option value="madrid">Madrid</option>
-				<option value="sevilla">Sevilla</option>
-				<option value="valencia">Valencia</option>
 				</select>
 				<div></div>
 			</td>
@@ -108,11 +100,6 @@
 			  <td id="error_city">
 			    <select name="city" id="city">
 			    <option selected>Select city</option>
-				<option value="ontinyent">Ontinyent</option>
-				<option value="barcelona">Barcelona</option>
-				<option value="madrid">Madrid</option>
-				<option value="sevilla">Sevilla</option>
-				<option value="valencia">Valencia</option>
 				</select>
 				<div></div>
 			</td>
