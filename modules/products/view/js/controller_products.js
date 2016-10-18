@@ -421,17 +421,17 @@ function validate_product(){
     if (result){
       //console.log("Inside if result");
 
-        if (province == null) {
+        if (province === null) {
             province = 'default_province';
-        }else if (provincia.length == 0) {
+        }else if (province.length === 0) {
             province = 'default_province';
         }else if (province === 'Select province') {
             return 'default_province';
         }
 
-        if (city == null) {
+        if (city === null) {
             city = 'default_city';
-        }else if (city.length == 0) {
+        }else if (city.length === 0) {
             city = 'default_city';
         }else if (city === 'Select city') {
             return 'default_city';

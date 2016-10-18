@@ -62,7 +62,7 @@ class productDAO {
           $ch = curl_init();
           curl_setopt ($ch, CURLOPT_URL, $url);
           curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);
-          curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
+          curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, 5);
           $file_contents = curl_exec($ch);
           curl_close($ch);
 
@@ -73,7 +73,7 @@ class productDAO {
           $json = array();
           $tmp = array();
 
-          $provincias = simplexml_load_file("../resources/provinciasypoblaciones.xml");
+          $provincias = simplexml_load_file($_SERVER['DOCUMENT_ROOT'].'/shop_arevert/resources/provinciasypoblaciones.xml');
           $result = $provincias->xpath("/lista/provincia/nombre | /lista/provincia/@id");
           for ($i=0; $i<count($result); $i+=2) {
             $e=$i+1;
@@ -93,7 +93,7 @@ class productDAO {
           $tmp = array();
 
           $filter = (string)$arrArgument;
-          $xml = simplexml_load_file('../resources/provinciasypoblaciones.xml');
+          $xml = simplexml_load_file($_SERVER['DOCUMENT_ROOT'].'/shop_arevert/resources/provinciasypoblaciones.xml');
           $result = $xml->xpath("/lista/provincia[@id='$filter']/localidades");
 
           for ($i=0; $i<count($result[0]); $i++) {
