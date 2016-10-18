@@ -390,9 +390,27 @@ function validate_product(){
         if(response.success){
           window.location.href = response.redirect;
         }
-    },"json").fail(function(xhr){
+    },"json").fail(function(xhr, textStatus, errorThrown){
           //console.log("Inside error json");
           //console.log(xhr.responseJSON);
+          if (xhr.status === 0) {
+                alert('Not connect: Verify Network.');
+            } else if (xhr.status == 404) {
+                alert('Requested page not found [404]');
+            } else if (xhr.status == 500) {
+                alert('Internal Server Error [500].');
+            } else if (textStatus === 'parsererror') {
+                alert('Requested JSON parse failed.');
+            } else if (textStatus === 'timeout') {
+                alert('Time out error.');
+            } else if (textStatus === 'abort') {
+                alert('Ajax request aborted.');
+            } else {
+                alert('Uncaught Error: ' + xhr.responseText);
+            }
+          if (xhr.responseJSON == 'undefined' && xhr.responseJSON === null )
+                  xhr.responseJSON = JSON.parse(xhr.responseText);
+
           if(xhr.responseJSON.error.prodname)
             $("#error_prodname").focus().after("<span  class='error1'>" + xhr.responseJSON.error.prodname + "</span>");
 

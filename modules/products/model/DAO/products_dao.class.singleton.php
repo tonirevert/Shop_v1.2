@@ -44,7 +44,7 @@ class productDAO {
             if ($indice === 'cat3')
                 $cat3 = 1;
             if ($indice === 'cat4')
-                $cat14 = 1;
+                $cat4 = 1;
         }
 
         $sql = "INSERT INTO products (prodname, prodref, prodprice, date_reception,"

@@ -17,10 +17,10 @@
 			print_r($res);
 */
       $sql = "INSERT INTO products (prodname, prodref, prodprice, date_reception,"
-        . " date_expiration, packaging, country, province, city, proddesc,"
-        . " prodpic, cat1, cat2, cat3, cat4) VALUES ('Taurus2000', '12345678',"
+        . " date_expiration, cat1, cat2, cat3, cat4, packaging, country, province,"
+        . " city, proddesc, prodpic) VALUES ('Taurus2000', '12345678',"
         . " '200', '01/10/2016', '24/05/2017', '1', "
-        . " '0', '0', '0', '0', 'Spain', 'Valencia',"
+        . " '0', '0', '0', 'boxed', 'Spain', 'Valencia',"
         . " 'Ontinyent', 'Descripción de prueba', 'ruta_imagen')";
 			$res = mysqli_query($conexion, $sql);
 			print_r($res);

@@ -52,7 +52,7 @@ function alta_products(){
       if ($arrValue){
           $message = "Product has been successfull registered";
       }else{
-          $message = "Problem ocurred regitering a porduct";
+          $message = "Problem ocurred registering a porduct";
       }
 
 
