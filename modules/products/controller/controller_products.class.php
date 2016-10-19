@@ -42,14 +42,14 @@ function alta_products(){
         'proddesc' => $result['data']['proddesc'],
         'prodpic' => $result_prodpic['data']
       );
-      $arrValue=true;
-/*
+      //$arrValue=true;
+
       $arrValue = false;
       $path_model = $_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/modules/products/model/model/';
       $arrValue = loadModel($path_model, "products_model", "create_product", $arrArgument);
       //echo json_encode($arrValue);
       //die();
-*/
+
       if ($arrValue){
           $message = "Product has been successfull registered";
       }else{
