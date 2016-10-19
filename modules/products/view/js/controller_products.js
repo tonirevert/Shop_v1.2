@@ -272,7 +272,7 @@ $(document).ready(function () {
           return false;
       }
     });
-
+    //Dependent combos //////////////////////////////////
     load_countries_v1();
     $("#province").empty();
     $("#province").append('<option value="" selected="selected">Select province</option>');
@@ -307,8 +307,6 @@ $(document).ready(function () {
 		}
 	});
 
-
-
 });//End document ready
 
 function validate_product(){
@@ -339,9 +337,10 @@ function validate_product(){
         }
     }*/
 
-
-    var country = document.getElementById('country').value;
-    var province = document.getElementById('province').value;
+    var c = document.getElementById('country');
+    var country = c.options[c.selectedIndex].text;
+    var p = document.getElementById('province');
+    var province = p.options[p.selectedIndex].text;
     var city = document.getElementById('city').value;
     var proddesc = document.getElementById('proddesc').value;
 
