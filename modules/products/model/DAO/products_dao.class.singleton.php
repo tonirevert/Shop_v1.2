@@ -69,7 +69,7 @@ class productDAO {
           return ($file_contents) ? $file_contents : FALSE;
     }
 
-    public Function obtain_provinces_DAO(){
+    public function obtain_provinces_DAO(){
           $json = array();
           $tmp = array();
 
@@ -88,7 +88,7 @@ class productDAO {
 
     }
 
-    public Function obtain_cities_DAO($arrArgument){
+    public function obtain_cities_DAO($arrArgument){
           $json = array();
           $tmp = array();
 

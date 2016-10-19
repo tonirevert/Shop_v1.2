@@ -337,10 +337,14 @@ function validate_product(){
         }
     }*/
 
+/*
     var c = document.getElementById('country');
     var country = c.options[c.selectedIndex].text;
     var p = document.getElementById('province');
     var province = p.options[p.selectedIndex].text;
+*/
+    var country = document.getElementById('country').value;
+    var province = document.getElementById('province').value;
     var city = document.getElementById('city').value;
     var proddesc = document.getElementById('proddesc').value;
 
@@ -392,7 +396,7 @@ function validate_product(){
         return false;
     }
 
-    if ($("#country").val() === "" || $("#country").val() === "Select country") {
+    if ($("#country").val() === "" || $("#country").val() === "Select country" || $("#country").val() === null) {
         $("#country").focus().after("<span class='error'>Select one country</span>");
         return false;
     }
@@ -568,11 +572,11 @@ function load_provinces_v2() {
 function load_provinces_v1() { //provinciasypoblaciones.xml - xpath
     $.get( "modules/products/controller/controller_products.class.php?load_provinces=true",
         function( response ) {
-            $("#province").empty();
+          $("#province").empty();
 	        $("#province").append('<option value="" selected="selected">Select province</option>');
 
             //alert(response);
-            var json = JSON.parse(response);
+        var json = JSON.parse(response);
 		    var provinces=json.provinces;
 		    //alert(provinces);
 		    //console.log(provinces);
