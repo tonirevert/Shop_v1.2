@@ -338,6 +338,8 @@ function validate_product(){
     }*/
 
 /*
+    take values from selectedIndex:
+    //////////////////////////////
     var c = document.getElementById('country');
     var country = c.options[c.selectedIndex].text;
     var p = document.getElementById('province');
