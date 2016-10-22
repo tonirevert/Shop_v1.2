@@ -170,6 +170,7 @@ if(  (isset($_GET["load_provinces"])) && ($_GET["load_provinces"] == true)  ){
 			exit;
 		}
 	}
+
 /////////////////////////////////////////////////// load_cities
 if(  isset($_POST['idPoblac']) ){
 	      $jsondata = array();
@@ -188,3 +189,26 @@ if(  isset($_POST['idPoblac']) ){
 			exit;
 		}
 	}
+
+/////////////////////////////////////////////////// list_products
+if ($_GET['idProduct']){
+    $id= $_GET['idProduct'];
+    $path_model=$_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/modules/products/model/model/';
+    $arrValue = loadModel($path_model, 'products_model','details_products',$id);
+
+    if($arrValue[0]){
+        loadView($_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/modules/products/view/', 'details_products.php', $arrValue[0]);
+    }else{
+        loadView($_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/view/inc', '404.php', 'PRODUCT NOT FOUND!');
+    }
+}else{
+    $path_model=$_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/modules/products/model/model/';
+    $arrValue = loadModel($path_model, 'products_model','list_products');
+
+    if($arrValue){
+        loadView($_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/modules/products/view/', 'list_products.php', $arrValue);
+    }else{
+        loadView($_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/view/inc', '404.php', 'PRODUCTS NOT FOUND!');
+
+    }
+}//End if/else get product

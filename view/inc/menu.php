@@ -14,6 +14,8 @@
                   <a href="index.php?module=main">HOME</a></li>
                 <li class=<?php if($_GET['module']=='products'){echo 'active';}else{ echo "";}?>>
                   <a href="index.php?module=products&view=create_products">PRODUCTS</a></li>
+                  <li class=<?php if($_GET['module']=='products'){echo 'active';}else{ echo "";}?>>
+                    <a href="index.php?module=products">LIST</a></li>
                 <li class=<?php if($_GET['module']=='services'){echo 'active';}else{ echo "";}?>>
                   <a href="index.php?module=services">SERVICES</a></li>
                 <li class=<?php if($_GET['module']=='portfolio'){echo 'active';}else{ echo "";}?>>

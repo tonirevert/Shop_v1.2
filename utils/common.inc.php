@@ -8,7 +8,7 @@
         $modelClass = $model_name;
 
         if (!method_exists($modelClass, $function)) {
-            die($function . ' function not found in Model ' . $model_name);
+            loadView($_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/view/inc', '404.php', $arrPassValue = 'Function not found in Model');
         }
 
         $obj = $modelClass::getInstance();
@@ -17,6 +17,24 @@
             return $obj -> $function($arrArgument);
         }
     } else {
-        die($model_name . ' Model Not Found under Model Folder ');
+        loadView($_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/view/inc', '404.php', $arrPassValue = 'Model Not Found under Model Folder');
     }
   }
+
+function loadView($rutaVista, $templateName, $arrPassValue = ''){
+        $view_path = $rutaVista . $templateName;
+        $arrData = '';
+
+        if(file_exists($view_path)){
+            if(isset($arrPassValue)){
+                $arrData = $arrPassValue;
+            }
+            include_once($view_path);
+        }else{
+
+          $message = "TEMPLATE NOT FOUND!";
+          $arrData = $message;
+          require_once $_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/view/inv/404.php';
+          die();
+        }
+}
