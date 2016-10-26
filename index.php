@@ -1,8 +1,18 @@
 <?php
+  ob_start();
   session_start();
+  $_SESSION['module'] = "";
     $_SESSION['result_prodpic'] = array();
     require_once("view/inc/header.php");
     require_once("view/inc/menu.php");
+
+    if (PRODUCTION){ //WE ARE IN PRODUCTION
+        ini_set('display_errors', '1');
+        ini_set('error_reporting', E_ERROR | E_WARNING | E_NOTICE);
+    }else{
+        ini_set('display_errors', '0');
+        ini_set('error_reporting', '0');
+    }
 
     include 'utils/utils.inc.php';
 
