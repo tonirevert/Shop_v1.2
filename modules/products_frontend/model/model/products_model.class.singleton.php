@@ -1,9 +1,7 @@
 <?php
 //echo json_encode("products model class");
 //exit;
-$path = $_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/';
-define('SITE_ROOT', $path);
-require(SITE_ROOT . "modules/products/model/BLL/products_bll.class.singleton.php");
+require(SITE_ROOT . "modules/products_frontend/model/BLL/products_bll.class.singleton.php");
 
 class products_model {
 
@@ -21,10 +19,6 @@ class products_model {
         return self::$_instance;
     }
 
-    public function create_product($arrArgument) {
-        return $this->bll->create_product_BLL($arrArgument);
-    }
-
     public function list_products(){
         return $this->bll->list_products_BLL();
     }
@@ -33,16 +27,12 @@ class products_model {
         return $this->bll->details_products_BLL($id);
     }
 
-    public function obtain_countries($url){
-        return $this->bll->obtain_countries_BLL($url);
+    public function page_products($arrArgument){
+        return $this->bll->page_products_BLL($arrArgument);
     }
 
-    public function obtain_provinces(){
-        return $this->bll->obtain_provinces_BLL();
+    public function total_products(){
+        return $this->bll->total_products_BLL();
     }
 
-    public Function obtain_cities($arrArgument){
-        return $this->bll->obtain_cities_BLL($arrArgument);
-    }
-
-}
+}//End class products_model

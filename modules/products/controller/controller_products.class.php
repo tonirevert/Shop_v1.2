@@ -142,6 +142,10 @@ if(  (isset($_GET["load_country"])) && ($_GET["load_country"] == true)  ){
 		$path_model=$_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/modules/products/model/model/';
 		$json = loadModel($path_model, "products_model", "obtain_countries", $url);
 
+    if($stristr($json, 'error')){
+      $json = null;
+      exit;
+    }
 		if($json){
 			echo $json;
 			exit;
@@ -189,26 +193,3 @@ if(  isset($_POST['idPoblac']) ){
 			exit;
 		}
 	}
-
-/////////////////////////////////////////////////// list_products
-if ($_GET['idProduct']){
-    $id= $_GET['idProduct'];
-    $path_model=$_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/modules/products/model/model/';
-    $arrValue = loadModel($path_model, 'products_model','details_products',$id);
-
-    if($arrValue[0]){
-        loadView($_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/modules/products/view/', 'details_products.php', $arrValue[0]);
-    }else{
-        loadView($_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/view/inc', '404.php', 'PRODUCT NOT FOUND!');
-    }
-}else{
-    $path_model=$_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/modules/products/model/model/';
-    $arrValue = loadModel($path_model, 'products_model','list_products');
-
-    if($arrValue){
-        loadView($_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/modules/products/view/', 'list_products.php', $arrValue);
-    }else{
-        loadView($_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/view/inc', '404.php', 'PRODUCTS NOT FOUND!');
-
-    }
-}//End if/else get product

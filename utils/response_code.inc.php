@@ -99,8 +99,8 @@ function showErrorPage($code = 0, $message = "", $http = "", $num_http = 0) {
             break;
         case 2:
             $log = Log::getInstance();
-            $log->add_log_general($message, "", "response " . http_response_code()); //$text, $controller, $function
-            $log->add_log_user($message, "", "", "response " . http_response_code()); //$msg, $username = "", $controller, $function
+            $log->add_log_general($message, "", "response " . http_response_code());
+            $log->add_log_user($message, "", "", "response " . http_response_code());
 
             $jsondata["error"] = $message;
             header($http, true, $num_http);
@@ -108,7 +108,7 @@ function showErrorPage($code = 0, $message = "", $http = "", $num_http = 0) {
             exit;
             break;
     }
-}
+}//End showErrorPage
 
 function ErrorHandler($errno, $errstr, $errfile, $errline) {
     $error = "";
@@ -132,6 +132,6 @@ function ErrorHandler($errno, $errstr, $errfile, $errline) {
     $msg = "ERROR: [$errno] $errstr\r\n" . "$error on line $errline in file $errfile\r\n";
 
     $log = Log::getInstance();
-    $log->add_log_general($msg, $_SESSION['module'], "response " . http_response_code()); //$text, $controller, $function
-    $log->add_log_user($msg, "", $_SESSION['module'], "response " . http_response_code()); //$msg, $username = "", $controller, $function
-}
+    $log->add_log_general($msg, $_SESSION['module'], "response " . http_response_code());
+    $log->add_log_user($msg, "", $_SESSION['module'], "response " . http_response_code());
+}//End ErrorHandler
