@@ -1,13 +1,18 @@
+//console.log("Modal products");
 //we do this so that  details_prod don't appear
 $("#details_prod").hide();
 $(document).ready(function () {
     $('.prod').click(function () {
         var id = this.getAttribute('id');
         //alert(id);
+        console.log(id);
 
         $.get("modules/products_frontend/controller/controller_products.class.php?idProduct=" + id, function (data, status) {
+
+            console.log("Data: "+data+" Status: "+ status);
             var json = JSON.parse(data);
             var product = json.product;
+
             //alert(product.name);
             //console.log(product);
 

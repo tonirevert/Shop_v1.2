@@ -184,3 +184,1938 @@ Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.p
 27/10/16 12:59:51 AM | ERROR: [8] Constant MODEL_PATH already defined
 Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
  | products_frontend | response 200
+27/10/16 09:53:38 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 09:53:38 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 09:53:38 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 09:53:38 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 10:19:44 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 10:19:44 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 10:19:44 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 10:19:44 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 10:48:18 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 10:48:18 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 10:48:18 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 10:48:18 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 10:57:25 AM | error paint_template_error | products | response200
+27/10/16 10:59:03 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 10:59:03 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 10:59:03 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 10:59:03 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:31 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:31 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:31 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:31 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:35 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:35 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:42 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:42 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:45 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:45 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:48 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:48 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:51 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:51 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:55 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:55 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:58 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:00:58 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:01 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:01 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:03 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:03 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:04 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:04 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:06 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:06 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:10 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:10 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:11 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:11 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:11 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:11 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:12 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:12 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:14 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:14 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:18 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:18 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:18 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:18 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:19 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:19 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:19 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:19 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:20 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:20 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:20 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:20 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:21 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:21 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:25 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:25 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:29 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:29 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:29 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:29 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:29 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:29 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:30 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:30 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:30 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:30 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:31 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:31 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:32 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:32 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:32 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:32 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:33 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:33 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:33 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:33 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:34 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:01:34 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:13 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:13 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:13 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:13 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:37 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:37 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:38 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:38 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:39 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:39 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:39 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:39 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:42 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:42 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:48 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:48 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:58 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:02:58 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:03:10 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:03:10 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:03:10 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:03:10 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:03:27 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:03:27 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:04:37 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:04:37 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:04:37 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:04:37 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:04:38 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:04:38 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:04:38 AM | ERROR - 404 NO DATA |  | response 200
+27/10/16 11:04:38 AM | error paint_template_error | products | response200
+27/10/16 11:05:01 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:05:01 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:05:01 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:05:01 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:06:52 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:06:52 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:06:52 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:06:52 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:07:07 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:07:07 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:07:07 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:07:07 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:09:45 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:09:45 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:09:45 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:09:45 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:10:44 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:10:44 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:10:44 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:10:44 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:12:29 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:12:29 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:12:41 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:12:41 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:23:06 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:23:06 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:23:06 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:23:06 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:23:08 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:23:08 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:23:19 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:23:19 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:23:21 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:23:21 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:23:23 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:23:23 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:23:24 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:23:24 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:23:25 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:23:25 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:32:33 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:32:33 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:32:33 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:32:33 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:32:37 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:32:37 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:32:39 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:32:39 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:32:48 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:32:48 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:33:13 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:33:13 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:33:13 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:33:13 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:33:18 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:33:18 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:33:22 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:33:22 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:14 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:14 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:14 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:14 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:19 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:19 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:24 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:24 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:25 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:25 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:26 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:26 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:27 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:27 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:28 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:28 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:29 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:29 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:30 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:30 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:32 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:32 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:50 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:50 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:55 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:55 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:56 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:37:56 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:38:04 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:38:04 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:38:04 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:38:04 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:38:06 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:38:06 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:38:07 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:38:07 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:38:11 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:38:11 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:38:12 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:38:12 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:38:13 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:38:13 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:39:03 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:39:03 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:39:03 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:39:03 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:26 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:26 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:26 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:26 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:33 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:33 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:35 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:35 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:37 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:37 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:38 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:38 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:40 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:40 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:40 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:40 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:44 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:44 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:46 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:46 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:47 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:47 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:49 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:49 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:50 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:50 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:51 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:51 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:52 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:52 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:53 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:53 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:54 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:54 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:55 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:40:55 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:25 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:25 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:25 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:25 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:27 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:27 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:30 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:30 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:32 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:32 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:34 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:34 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:35 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:35 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:36 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:36 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:39 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:39 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:42 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:41:42 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:21 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:21 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:21 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:21 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:22 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:22 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:23 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:23 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:28 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:28 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:30 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:30 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:34 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:34 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:38 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:38 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:39 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:39 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:40 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:40 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:40 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:40 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:41 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:41 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:41 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:41 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:46 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:46 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:47 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:47 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:47 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:47 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:48 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:43:48 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:44:19 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:44:19 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:44:22 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:44:22 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:45:21 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:45:21 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:45:21 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:45:21 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:45:24 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:45:24 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:45:26 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:45:26 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:45:27 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:45:27 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:45:33 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:45:33 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:48:56 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:48:56 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:48:56 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:48:56 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:48:58 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:48:58 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:48:59 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:48:59 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:49:03 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:49:03 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:49:07 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:49:07 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:49:08 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:49:08 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:49:09 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:49:09 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:50:47 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:50:47 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:50:47 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:50:47 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:50:49 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:50:49 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:50:50 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:50:50 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:51:36 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:51:36 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:51:36 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:51:36 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:51:38 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:51:38 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:51:39 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:51:39 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:22 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:22 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:22 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:22 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:23 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:23 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:25 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:25 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:26 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:26 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:27 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:27 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:28 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:28 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:33 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:33 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:35 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:35 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:36 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:36 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:47 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:52:47 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:53:24 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:53:24 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:53:24 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:53:24 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:53:28 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:53:28 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:54:01 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:54:01 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:54:01 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:54:01 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:54:03 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:54:03 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:59:27 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:59:27 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:59:27 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:59:27 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:59:30 AM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 11:59:30 AM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:00:43 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:00:43 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:00:43 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:00:43 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:00:52 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:00:52 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:00:59 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:00:59 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:00 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:00 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:07 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:07 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:17 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:17 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:19 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:19 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:21 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:21 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:22 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:22 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:25 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:26 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:26 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:44 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:44 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:44 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:44 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:46 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:49 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:49 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:51 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:51 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:52 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:52 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:54 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:01:54 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:02:16 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:02:16 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:02:17 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:02:17 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:02:20 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:02:20 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:02:28 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:02:28 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:02:31 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:02:31 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:02:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:02:35 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:02:37 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:02:37 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:02:38 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:02:38 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:23 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:23 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:23 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:23 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:24 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:24 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:26 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:26 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:27 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:27 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:27 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:27 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:49 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:49 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:49 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:49 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:51 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:51 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:52 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:52 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:53 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:55 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:55 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:56 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:56 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:56 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:04:56 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:06:10 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:06:10 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:06:10 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:06:10 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:06:11 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:06:11 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:06:12 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:06:12 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:06:13 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:06:13 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:06:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:06:14 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:07 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:07 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:07 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:07 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:08 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:08 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:09 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:09 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:10 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:10 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:11 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:11 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:15 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:15 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:19 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:19 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:26 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:26 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:53 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:53 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:55 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:55 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:56 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:56 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:57 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:13:57 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:14 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:14 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:14 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:15 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:15 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:16 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:16 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:17 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:17 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:56 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:56 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:56 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:56 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:57 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:57 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:58 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:14:58 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:15:31 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:15:31 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:15:31 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:15:31 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:15:32 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:15:32 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:15:34 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:15:34 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:31 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:31 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:31 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:31 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:33 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:33 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:33 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:35 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:35 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:37 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:37 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:49 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:49 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:49 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:49 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:51 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:51 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:52 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:52 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:16:53 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:17:03 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:17:03 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:17:03 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:17:03 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:17:05 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:17:05 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:17:06 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:17:06 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:25:46 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:25:46 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:25:47 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:25:47 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:25:56 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:25:56 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:27:17 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:27:17 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:27:17 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:27:17 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:27:19 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:27:19 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:36:06 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:36:06 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:36:23 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:36:23 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:36:56 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:36:56 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:36:57 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:36:57 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:37:04 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:37:04 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:40:18 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 12:40:18 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:07:51 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:07:51 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:07:51 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:07:51 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:07:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:07:53 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:08:12 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:08:12 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:08:26 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:08:26 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:08:27 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:08:27 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:08:44 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:08:44 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:08:53 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:08:53 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:08:56 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:08:56 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:08:59 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:08:59 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:09:03 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:09:03 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:09:07 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:09:07 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:09:10 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:09:10 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:09:13 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:09:13 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:20:00 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:20:00 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:20:03 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:20:03 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:20:17 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:20:17 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:20:18 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:20:18 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:20:25 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:20:25 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:20:36 PM | ERROR: [8] Constant SITE_ROOT already defined
+Notice on line 3 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200
+27/10/16 01:20:36 PM | ERROR: [8] Constant MODEL_PATH already defined
+Notice on line 4 in file /var/www/html/shop_arevert/model/Conf.class.singleton.php
+ | products_frontend | response 200

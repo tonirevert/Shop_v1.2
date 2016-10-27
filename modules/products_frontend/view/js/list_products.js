@@ -2,7 +2,7 @@ $(document).ready(function () {
     $.get("modules/products_frontend/controller/controller_products.class.php?num_pages=true", function (data, status){
         var json = JSON.parse(data);
         var pages = json.pages;
-        //console.log(json);
+        console.log(json);
         //console.log(pages);
 
         $("#results").load("modules/products_frontend/controller/controller_products.class.php"); //load initial records
@@ -19,7 +19,6 @@ $(document).ready(function () {
             e.preventDefault();
             //$("#results").prepend('<div class="loading-indication"><img src="modules/services/view/img/ajax-loader.gif" /> Loading...</div>');
             $("#results").load("modules/products_frontend/controller/controller_products.class.php", {'page_num': num});
-            console.log($("#results"));
             // ... after content load
 
         });

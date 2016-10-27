@@ -24,7 +24,8 @@ class productDAO {
     }
 
     public function details_products_DAO($db,$id){
-          $sql = "SELECT * FROM products WHERE prodref=".$id;
+          //$sql = "SELECT * FROM products WHERE prodref=".$id;
+          $sql = "SELECT prodname,prodref,prodprice,proddesc,prodpic FROM products WHERE prodref=".$id;//Select to avoid the characters on other fields like city
           $stmt = $db->ejecutar($sql);
           return $db->listar($stmt);
     }
@@ -32,7 +33,7 @@ class productDAO {
     public function page_products_DAO($db,$arrArgument) {
         $position = $arrArgument['position'];
         $item_per_page = $arrArgument['item_per_page'];
-        $sql = "SELECT * FROM products ORDER BY id ASC LIMIT ".$position." , ".$item_per_page;
+        $sql = "SELECT * FROM products ORDER BY prodref ASC LIMIT ".$position." , ".$item_per_page;
         $stmt = $db->ejecutar($sql);
         return $db->listar($stmt);
 
