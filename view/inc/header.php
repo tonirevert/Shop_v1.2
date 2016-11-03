@@ -10,6 +10,7 @@
         <![endif]-->
     <title>Antonio Revert |<?php if($_GET['module']){echo $_GET['module'];}else{echo "homepage";}?></title>
     <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="view/css/animate.min.css" rel="stylesheet">
     <link href="view/css/bootstrap.css" rel="stylesheet" />
     <!-- FONTAWESOME STYLE CSS -->
     <link href="view/css/font-awesome.min.css" rel="stylesheet" />
@@ -18,13 +19,12 @@
     <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
 
-    <!--ajax for form products-->
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'></script>
-
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
   	<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-  	<!--<link rel="stylesheet" href="/resources/demos/style.css">-->
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+
 
 </head>
 <body>

@@ -145,11 +145,20 @@ input[type="file"] {
     height: 70%;
 }
 
+.ui-state-default .ui-icon {
+        background-image: url("ui-icons_888888_256x240.png");
+}
+
+.ui-icon-closethick{
+ margin-top: -8px!important;
+margin-left: -8px!important;
+}
+
 #details {
     display: table;
     width: 100%;
-    //border:1px solid black;
-    //border-radius: 9px;
+    border:1px solid black;
+    border-radius: 9px;
     background-color: #f5f1e6;
     text-align: center;
 }

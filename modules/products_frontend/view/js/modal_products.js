@@ -5,11 +5,10 @@ $(document).ready(function () {
     $('.prod').click(function () {
         var id = this.getAttribute('id');
         //alert(id);
-        console.log(id);
+        //console.log(id);
 
         $.get("modules/products_frontend/controller/controller_products.class.php?idProduct=" + id, function (data, status) {
-
-            console.log("Data: "+data+" Status: "+ status);
+            //console.log("Data: "+data+" Status: "+ status);
             var json = JSON.parse(data);
             var product = json.product;
 
@@ -25,6 +24,7 @@ $(document).ready(function () {
             //we do this so that  details_prod  appear
             $("#details_prod").show();
 
+            //$.fn.bootstrapBtn = $.fn.button.noConflict();
 
             $("#product").dialog({
                 width: 850, //<!-- ------------- ancho de la ventana -->
@@ -39,13 +39,15 @@ $(document).ready(function () {
                         $(this).dialog("close");
                     }
                 },
-                show: {
-                    effect: "blind",
-                    duration: 1000
+                show: {/*https://api.jqueryui.com/bounce-effect/ Efects: blind, (bounce, times: 3),fade, puff,shake */
+                    /*effect: "blind",
+                    duration: 1000*/
+                    effect: "fade"
                 },
                 hide: {
-                    effect: "explode",
-                    duration: 1000
+                    /*effect: "explode",
+                    duration: 1000*/
+                    effect: "fade"
                 }
             });
         })

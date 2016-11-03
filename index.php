@@ -6,6 +6,7 @@ $_SESSION['module'] = "";
 $_SESSION['result_prodpic'] = array();
 require_once("view/inc/header.php");
 require_once("view/inc/menu.php");
+require_once("paths.php");
 
 if (PRODUCTION){ //WE ARE IN PRODUCTION
     ini_set('display_errors', '1');
