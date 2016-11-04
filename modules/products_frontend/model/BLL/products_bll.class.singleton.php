@@ -40,4 +40,28 @@ class products_bll{
         return $this->dao->total_products_DAO($this->db);
     }
 
+    public function list_limit_products_BLL($arrArgument){
+        return $this->dao->list_limit_products_DAO($this->db,$arrArgument);
+    }
+
+    public function count_products_BLL(){
+        return $this->dao->count_products_DAO(this->db);
+    }
+
+    public function select_column_products_BLL($arrArgument){
+        return $this->dao->select_column_products_DAO($this->db,$arrArgument);
+    }
+
+    public function select_like_products_BLL($arrArgument){
+        return $this->dao->select_like_products_DAO($this->db,$arrArgument);
+    }
+
+    public function count_like_products_BLL($arrArgument){
+        return $this->dao->count_like_products_DAO($this->db,$arrArgument);
+    }
+
+    public function select_like_limit_products_BLL($arrArgument){
+        return $this->dao->select_like_limit_products_DAO($this->db,$arrArgument);
+    }
+
 }//End class products_bll

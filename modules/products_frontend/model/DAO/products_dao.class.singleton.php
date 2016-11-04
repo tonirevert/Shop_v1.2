@@ -20,6 +20,7 @@ class productDAO {
     public function list_products_DAO($db){
           $sql = "SELECT * FROM products";
           $stmt = $db->ejecutar($sql);
+
           return $db->listar($stmt);
     }
 
@@ -27,6 +28,7 @@ class productDAO {
           //$sql = "SELECT * FROM products WHERE prodref=".$id;
           $sql = "SELECT prodname,prodref,prodprice,proddesc,prodpic FROM products WHERE prodref=".$id;//Select to avoid the characters on other fields like city
           $stmt = $db->ejecutar($sql);
+
           return $db->listar($stmt);
     }
 
@@ -35,6 +37,7 @@ class productDAO {
         $item_per_page = $arrArgument['item_per_page'];
         $sql = "SELECT * FROM products ORDER BY prodref ASC LIMIT ".$position." , ".$item_per_page;
         $stmt = $db->ejecutar($sql);
+
         return $db->listar($stmt);
 
     }
@@ -42,6 +45,47 @@ class productDAO {
     public function total_products_DAO($db){
         $sql = "SELECT COUNT(*) as total FROM products";
         $stmt = $db->ejecutar($sql);
+
+        return $db->listar($stmt);
+    }
+
+    public function list_limit_products_DAO($db, $arrArgument) {
+        $sql = "SELECT * FROM products ORDER BY id ASC LIMIT " . $arrArgument['position'] . ", " . $arrArgument['limit'];
+        $stmt = $db->ejecutar($sql);
+
+        return$db->listar($stmt);
+    }
+
+    public function count_products_DAO($db) {
+        $sql = "SELECT COUNT(*) as total from products";
+        $stmt = $db->ejecutar($sql);
+
+        return $db->listar($stmt);
+    }
+
+    public function select_column_products_DAO($db, $arrArgument) {
+        $sql = "SELECT " . $arrArgument . " FROM products ORDER BY " . $arrArgument;
+        $stmt = $db->ejecutar($sql);
+
+        return $db->listar($stmt);
+    }
+
+    public function select_like_products_DAO($db, $arrArgument) {
+        $sql = "SELECT DISTINCT * FROM products WHERE " . $arrArgument['column'] . " like '%" . $arrArgument['like'] . "%'";
+        $stmt = $db->ejecutar($sql);
+
+        return $db->listar($stmt);
+    }
+     public function count_like_products_DAO($db, $arrArgument) {
+        $sql = "SELECT COUNT(*) as total FROM products WHERE " . $arrArgument['column'] . " like '%" . $arrArgument['like'] . "%'";
+        $stmt = $db->ejecutar($sql);
+
+        return $db->listar($stmt);
+    }
+    public function select_like_limit_products_DAO($db, $arrArgument) {
+        $sql="SELECT DISTINCT * FROM products WHERE ".$arrArgument['column']." like '%". $arrArgument['like']. "%' ORDER BY id ASC LIMIT ". $arrArgument['position']." , ". $arrArgument['limit'];
+        $stmt=$db->ejecutar($sql);
+
         return $db->listar($stmt);
     }
 
