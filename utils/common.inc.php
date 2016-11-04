@@ -31,11 +31,19 @@ function loadView($rutaVista='', $templateName='', $arrPassValue = ''){
             }
             include_once($view_path);
         }else{
+
+            $result = filter_num_int($rutaVista);
+            if($result['result']){
+              $rutaVista= $result['data'];
+            }else{
+              $rutaVista= http_response_code();
+            }
+
             $log = Log::getInstance();
             $log->add_log_general("error loadView general", $_GET['module'], "response ".http_response_code());
             $log->add_log_user("error loadView general", "", $_GET['module'], "response".http_response_code());
 
-          $result = response_code(http_response_code());
+          $result = response_code($rutaVista);
           $arrData = $result;
           require_once $_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/view/inc/templates_error/'. "error". '.php';
         }

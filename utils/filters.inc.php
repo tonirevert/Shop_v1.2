@@ -7,3 +7,11 @@ function filter_num_int($num){
   }
   return $return = array('result' => true, 'error' => "", 'data' => $num);
 }
+
+function filter_string($cad){
+      $reult = filter_var($cad, FILTER_VALIDATE_REGEXP, array('options' => array('regexp' => '/^[a-zA-Z0-9 .,]*$/')));
+      if(!$result){
+        return $return=array('result'=>false,'error'=>"Invalid value input",'data'=>"");
+      }
+      return $return=array('result'=>true, 'error'=>"",'data'=>$cad);
+}

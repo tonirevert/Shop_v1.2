@@ -10,7 +10,11 @@ function paint_template_error($message){
     print ("<br><br>");
     print ("<div id='header' class='status4xx'>");
     //https://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP
-    print("<h1>" . $message . "</h1>");
+    if (isset($message) && !empty($message)) {
+
+
+        print( '<h1>ERROR ' . http_response_code() . ' - ' . $message . '</h1>');
+    }
     print("</div>");
     print ("<div id='content'>");
     print ("<h2>The following error occurred:</h2>");
@@ -24,7 +28,7 @@ function paint_template_error($message){
 }//End paint_template_error
 
 function paint_template_products($arrData) {
-    print ("<script type='text/javascript' src='modules/products_frontend/view/js/modal_products.js' ></script>");
+    /*print ("<script type='text/javascript' src='modules/products_frontend/view/js/modal_products.js' ></script>");*/
     print ("<section >");
     print ("<div class='container'>");
     print ("<div id='list_prod' class='row text-center pad-row'>");
@@ -36,18 +40,50 @@ function paint_template_products($arrData) {
     print ("<br>");
     print ("<br>");
     if (isset($arrData) && !empty($arrData)) {
-
+        $i = 0;
         foreach ($arrData as $product) {
-            //echo $productos['id'] . " " . $productos['nombre'] . "</br>";
-            //echo $productos['descripcion'] . " " . $productos['precio'] . "</br>";
+            $i++;
+            if (count($arrData) % 2 !== 0 && i >= count($arrData)){
+                print( '<div class="odd_prod">');
+            }else {
+                if ($i % 2 != 0)
+                    print( '<div class="table-row">');
+                else
+                    print('<div class="table-separator"></div>');
+            }
             print ("<div class='prod' id='".$product['prodref']."'>");
             print ("<img class='prodImg' src='" . $product['prodpic'] . "'alt='product' >");
             print ("<p>" . $product['prodname'] . "</p>");
             print ("<p id='p2'>" . $product['prodprice'] . "€</p>");
+            print("<div id='" . $product['prodref'] . "' class='product_name'> Read Details </div>");
             print ("</div>");
+            if(count($arrData) % 2 !== 0 && i >= count($arrData)){
+                print('</div>');
+            }else{
+              if ($i % 2 ==0){
+                print('</div><br>');
+              }
+            }
         }
-    }
+    }//End if
     print ("</div>");
     print ("</div>");
     print ("</section>");
 }//End paint_template_products
+
+function paint_template_search($message){
+    $log=Log::getInstance();
+    $log->add_log_general("error paint_template_search", "products", "response" . http_response_code());
+    $log->add_log_user("error paint_template_search", "", "products", "response" . http_response_code());
+
+    print ("<section> \n");
+    print ("<div class='container'> \n");
+    print ("<div class='row text-center pad-row'> \n");
+
+    print ("<h2>" . $message . "</h2> \n");
+    print ("<br><br><br><br> \n");
+
+    print ("</div> \n");
+    print ("</div> \n");
+    print ("</section> \n");
+}//End paint template search

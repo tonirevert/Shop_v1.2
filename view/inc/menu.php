@@ -30,3 +30,25 @@
         </div>
     </div>
 </div>
+<br/>
+<section id="title" class="emerald">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1><?php
+                    if (!isset($_GET['module'])) {
+                        echo "Home";
+                    } else if (isset($_GET['module']) && !isset($_GET['view'])) {
+                        echo "<a href='index.php?module=" . $_GET['module'] . "'>" . $_GET['module'] . "</a>";
+                    }else{
+                        echo "<a href='index.php?module=" . $_GET['module'] . "&view=".$_GET['view']."'>" . $_GET['module'] . "</a>";
+                    }
+                    ?></h1>
+                <strong>Web de test del proyecto</strong>
+
+
+            </div>
+             <h2 class="BackHome"><a href="index.php">Back Home</a></h2>
+        </div>
+    </div>
+</section>

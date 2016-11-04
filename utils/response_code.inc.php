@@ -94,8 +94,8 @@ function showErrorPage($code = 0, $message = "", $http = "", $num_http = 0) {
             die();
             break;
         case 1:
-            header($http, true, $num_http);
-            loadView();
+            //header($http, true, $num_http);
+            loadView($num_http);
             break;
         case 2:
             $log = Log::getInstance();
@@ -103,8 +103,12 @@ function showErrorPage($code = 0, $message = "", $http = "", $num_http = 0) {
             $log->add_log_user($message, "", "", "response " . http_response_code());
 
             $jsondata["error"] = $message;
-            header($http, true, $num_http);
+            //header($http, true, $num_http);
             echo json_encode($jsondata);
+            exit;
+            break;
+        case 3:
+            paint_template_search($message);
             exit;
             break;
     }
