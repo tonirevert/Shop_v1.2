@@ -73,7 +73,19 @@ function search_product(keyword){
       $('.pagination_prods').html('');
 
       var img_product = document.getElementById('img_product');
-      img_product.innerHTML = '<img src="' + product[0].img + ' " class="img_product">';
+      img_product.innerHTML = '<img src="' + product[0].prodpict + ' " class="img_product">';
 
-  })
+      var name_product = document.getElementById('nom_product');
+      name_product.innerHTML = product[0].prodname;
+      var desc_prod = document.getElementById('desc_product');
+      desc_prod.innerHTML = product[0].proddesc;
+      var price_product = document.getElementById('prodprice');
+      price_product.innerHTML = "Price:" + product[0].prodprice+ " €";
+      price_product.setAttribute("class", "special");
+
+  }).fail(function (xhr) {
+      $("#results").load("modules/products_frontend/controller/controller_products.class.php?view_error=false");
+      $('.pagination_prods').html('');
+      reset();
+  });
 }//End search_product
