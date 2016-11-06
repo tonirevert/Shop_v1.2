@@ -13,13 +13,13 @@ function refresh(){
 
 function search(keyword){
 //changes the url to avoid creating another different function
-  var urlbase = "modules/products_frontend/controller/count_products.class.php";
+  var urlbase = "modules/products_frontend/controller/controller_products.class.php";
   if(!keyword){
       url = urlbase + "?num_pages=true";
   }else{
       url = urlbase + "?num_pages=true&keyword=" + keyword;
   }
-
+  //console.log(url);
   $.get(url, function (data, status){
       var json = JSON.parse(data);
       var pages = json.pages;
@@ -41,7 +41,7 @@ function search(keyword){
               maxVisible: 5,
               next: 'next',
               prev: 'prev'
-          }).on("page", function (e,num){
+          }).on("page", function (e, num){
               e.preventDefault();
               if(!keyword){
                   $("#results").load("modules/products_frontend/controller/controller_products.class.php", {'page_num': num});
@@ -65,23 +65,33 @@ function search(keyword){
 }//End search function
 
 function search_product(keyword){
-  $.get("modules/products_frontend/controller/controller_products.class.php?name_product" + keyword, function (data, status){
+  console.log("search_product");
+  $.get("modules/products_frontend/controller/controller_products.class.php?name_products=" + keyword, function (data, status){
+    //console.log("get search_product");
+    //console.log(data);
       var json = JSON.parse(data);
-      var product = json.products_autocomplete;
+      console.log(json);
+      //var json = data;
+      var product = json.product_autocomplete;
+//      console.log(data.prodname);
+      //console.log(product.prodname);
 
       $('#results').html('');
       $('.pagination_prods').html('');
 
       var img_product = document.getElementById('img_product');
-      img_product.innerHTML = '<img src="' + product[0].prodpict + ' " class="img_product">';
+      img_product.innerHTML = '<img src="' + product[0].prodpic + ' " class="img-product">';
 
       var name_product = document.getElementById('nom_product');
       name_product.innerHTML = product[0].prodname;
       var desc_prod = document.getElementById('desc_product');
       desc_prod.innerHTML = product[0].proddesc;
-      var price_product = document.getElementById('prodprice');
+      var price_product = document.getElementById('price_product');
       price_product.innerHTML = "Price:" + product[0].prodprice+ " €";
       price_product.setAttribute("class", "special");
+
+
+
 
   }).fail(function (xhr) {
       $("#results").load("modules/products_frontend/controller/controller_products.class.php?view_error=false");
@@ -91,19 +101,23 @@ function search_product(keyword){
 }//End search_product
 
 function count_products(keyword){
+
   $.get("modules/products_frontend/controller/controller_products.class.php?count_products=" + keyword, function (data, status){
       var json = JSON.parse(data);
       var num_products = json.num_products;
       alert("num_products: "+num_products);
-
-      if (num_products ===0){
+      console.log("get count_products");
+      if (num_products == 0){
+        console.log("0 en count_products");
           $("#results").load("modules/products_frontend/controller/controller_products.class.php?view_error=false");
           $('.pagination_prods').html('');
       }
-      if (num_products === 1){
+      if (num_products == 1){
+        console.log("1 en count_products");
           search_product(keyword);
       }
       if (num_products > 1){
+        console.log(">1 en count_products");
           search(keyword);
       }
   }).fail(function () {
@@ -124,23 +138,27 @@ function reset(){
 }//End reser function
 
 $(document).ready(function () {
-
+console.log("document ready");
     if(getCookie("search")){
-        var keyword=getCookie("search");
+      console.log("if getCookie");
+        var keyword = getCookie("search");
         count_products(keyword);
         alert("document ready getCookie(search): "+ getCookie("search"));
         setCookie("search","",1);
     }else{
+        console.log("else getCookie");
         search();
     }
 
     $("#search_prod").submit(function (e){
+      console.log("submit search_prod");
         var keyword = document.getElementById('keyword').value;
+        console.log(keyword);
         var v_keyword = validate_search(keyword);
         if(v_keyword){
           setCookie("search", keyword, 1);
         }
-        alert("getCookie(search): "+ getCookie("search"));
+        alert(" search_prod submit getCookie(search): "+ getCookie("search"));
         location.reload(true);
 
         e.preventDefault();//This STOP default action
@@ -152,21 +170,22 @@ $(document).ready(function () {
         if (v_keyword){
             setCookie("search", keyword, 1);
         }
-        alert("getCookie(search): "+ getCookie("search"));
+        alert("submit getCookie(search): "+ getCookie("search"));
         location.reload(true);
     });
 
     $.get("modules/products_frontend/controller/controller_products.class.php?autocomplete=true", function(data, status){
         var json = JSON.parse(data);
-        var name_products = json.nom_products;
-
+        var name_products = json.name_products;
+        //alert(name_products[0].prodname);
+        //console.log("name_products: "+name_products);
         var suggestions = new Array();
         for (var i = 0; i < name_products.length; i++){
             suggestions.push(name_products[i].prodname);
         }
 
-        $(keyword).autocomplete({
-            sourde : suggestions,
+        $("#keyword").autocomplete({
+            source : suggestions,
             minLength: 1,
             select: function (event, ui){
 

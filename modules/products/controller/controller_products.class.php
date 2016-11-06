@@ -142,10 +142,7 @@ if(  (isset($_GET["load_country"])) && ($_GET["load_country"] == true)  ){
 		$path_model=$_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/modules/products/model/model/';
 		$json = loadModel($path_model, "products_model", "obtain_countries", $url);
 
-    if($stristr($json, 'error')){
-      $json = null;
-      exit;
-    }
+    
 		if($json){
 			echo $json;
 			exit;

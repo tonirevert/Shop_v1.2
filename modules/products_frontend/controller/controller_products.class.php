@@ -3,7 +3,7 @@
 //include  with absolute route
 $path = $_SERVER['DOCUMENT_ROOT'] . '/shop_arevert/';
 include($path . 'modules/products_frontend/utils/utils.inc.php');
-define('SITE_ROOT', $path);
+//define('SITE_ROOT', $path);
 include $path . 'paths.php';
 include $path . 'classes/Log.class.singleton.php';
 include $path . 'utils/common.inc.php';
@@ -13,10 +13,11 @@ include $path . 'utils/response_code.inc.php';
 $_SESSION['module'] = "products_frontend";
 
 if ((isset($_GET["autocomplete"])) && ($_GET["autocomplete"] === "true")){
+
     set_error_handler('ErrorHandler');
-    $model_path = SITE_ROOT . 'modules/products_frontend/model/model';
+    $model_path = SITE_ROOT . 'modules/products_frontend/model/model/';
     try{
-        $nameProducts = loadModel($model_path, "products_model", "select_column_products", "nameprod")
+        $nameProducts = loadModel($model_path, "products_model", "select_column_products", "prodname");
     }catch(Exception $e){
         showErrorPage(2, "ERROR - 503 DB", 'HTTP/1.0 503 Service Unavailable', 503);
     }
@@ -29,20 +30,21 @@ if ((isset($_GET["autocomplete"])) && ($_GET["autocomplete"] === "true")){
     }else{
         showErrorPage(2, "ERROR - 404 NO DATA", 'HTTP/1.0 404 Not Found', 404);
     }
+
 }//End autocomplete
 
-if(($_GET["name_product"])){
+if(isset($_GET["name_products"])){
 
-  $result = filter_string($_GET["name_product"]);
-  if($reuslt['result']){
+  $result = filter_string($_GET["name_products"]);
+  if($result['result']){
       $criteria = $result['data'];
   }else{
-      $criteria = '';
+      $criteria = ' ';
   }
   $model_path = SITE_ROOT . 'modules/products_frontend/model/model/';
   set_error_handler('ErrorHandler');
   try{
-      $arrArgument 0 array(
+      $arrArgument = array(
           "column" => "prodname",
           "like" => $criteria
       );
@@ -53,7 +55,7 @@ if(($_GET["name_product"])){
   restore_error_handler();
 
   if($product){
-    $jsondata["products_autocomplete"] = $product;
+    $jsondata["product_autocomplete"] = $product;
     echo json_encode($jsondata);
     exit;
   }else{
@@ -61,8 +63,8 @@ if(($_GET["name_product"])){
   }
 }//End name product
 
-if(($_GET["count_products"])){
-    $result = filter_string($_GET["count_product"]);
+if(isset($_GET["count_products"])){
+    $result = filter_string($_GET["count_products"]);
     if($result['result']){
         $criteria = $result['data'];
     }else{
@@ -82,7 +84,7 @@ if(($_GET["count_products"])){
     restore_error_handler();
 
     if($total_rows){
-        $jsondata["num_products"] = total_rows[0]["total"];
+        $jsondata["num_products"] = $total_rows[0]["total"];
         echo json_encode($jsondata);
         exit;
     }else{
@@ -93,7 +95,7 @@ if(($_GET["count_products"])){
 //obtain num total pages
 if ((isset($_GET["num_pages"])) && ($_GET["num_pages"] === "true")) {
 
-    if(isset($_GET[keyword])){
+    if(isset($_GET["keyword"])){
         $result = filter_string($_GET["keyword"]);
         if($result['result']){
             $criteria = $result['data'];
@@ -104,15 +106,20 @@ if ((isset($_GET["num_pages"])) && ($_GET["num_pages"] === "true")) {
         $criteria = ' ';
     }
 
-    $item_per_page = 3;
+    $item_per_page = 6;
     $path_model = SITE_ROOT . 'modules/products_frontend/model/model/';
 
     //change work error apache
     set_error_handler('ErrorHandler');
 
     try {
-        //throw new Exception();
-        $arrValue = loadModel($path_model, "products_model", "total_products");
+
+        $arrArgument = array(
+            "column" => "prodname",
+            "like" => $criteria
+        );
+
+        $arrValue = loadModel($path_model, "products_model", "count_like_products", $arrArgument);
         $get_total_rows = $arrValue[0]["total"]; //total records
         $pages = ceil($get_total_rows / $item_per_page); //break total records into pages
     } catch (Exception $e) {
@@ -141,7 +148,7 @@ if ((isset($_GET["view_error"])) && ($_GET["view_error"] === "false")) {
 
 
 if (isset($_GET["idProduct"])) {
-    $arrValue = null;
+
     //filter if idProduct is a number
     $result = filter_num_int($_GET["idProduct"]);
     if ($result['result']) {
@@ -152,7 +159,7 @@ if (isset($_GET["idProduct"])) {
 
     set_error_handler('ErrorHandler');
     try {
-        //throw new Exception();
+        $arrValue = null;
         $path_model = SITE_ROOT . 'modules/products_frontend/model/model/';
         $arrValue = loadModel($path_model, "products_model", "details_products", $id);
 
@@ -163,7 +170,7 @@ if (isset($_GET["idProduct"])) {
 
     if ($arrValue) {
         $jsondata["product"] = $arrValue[0];
-	echo json_encode($jsondata);
+	      echo json_encode($jsondata);
         exit;
     } else {
         showErrorPage(2, "ERROR - 404 NO DATA", 'HTTP/1.0 404 Not Found', 404);
@@ -182,7 +189,7 @@ if (isset($_GET["idProduct"])) {
     $item_per_page = 6;
 
     if(isset($_GET["keyword"])){
-        $result = filter_string$_GET["keyword"]);
+        $result = filter_string($_GET["keyword"]);
         if($result['result']){
             $criteria = $result['data'];
         }else{
@@ -203,7 +210,7 @@ if (isset($_GET["idProduct"])) {
 
     $position = (($page_number - 1) * $item_per_page);
     $model_path = SITE_ROOT . 'modules/products_frontend/model/model/';
-    $limit = $item_per_apge;
+    $limit = $item_per_page;
     $arrArgument = array(
         "column" => "prodname",
         "like" => $criteria,
@@ -213,25 +220,18 @@ if (isset($_GET["idProduct"])) {
 
     set_error_handler('ErrorHandler');
     try {
-        //throw new Exception();
-        $position = (($page_number - 1) * $item_per_page);
-
-        $arrArgument = array(
-            'position' => $position,
-            'item_per_page' => $item_per_page
-        );
 
         $path_model = SITE_ROOT . 'modules/products_frontend/model/model/';
-        $arrValue = loadModel($path_model, "products_model", "page_products", $arrArgument);
+        $arrValue = loadModel($path_model, "products_model", "select_like_limit_products", $arrArgument);
 
     } catch (Exception $e) {
-        showErrorPage(0, "ERROR - 503 BD Unavailable");
+        showErrorPage(0, "ERROR - 503 BD Unavailable", 503);
     }
     restore_error_handler();
 
     if ($arrValue) {
         paint_template_products($arrValue);
     } else {
-        showErrorPage(0, "ERROR - 404 NO PRODUCTS");
+        showErrorPage(0, "ERROR - 404 NO PRODUCTS",404);
     }
-}
+}//End else num_pages

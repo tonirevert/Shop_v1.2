@@ -27,49 +27,61 @@ function paint_template_error($message){
     print("</div>");
 }//End paint_template_error
 
+
 function paint_template_products($arrData) {
-    /*print ("<script type='text/javascript' src='modules/products_frontend/view/js/modal_products.js' ></script>");*/
-    print ("<section >");
-    print ("<div class='container'>");
-    print ("<div id='list_prod' class='row text-center pad-row'>");
-    print ("<ol class='breadcrumb'>");
-    print ("<li class='active' >Products</li>");
-    print ("</ol>");
-    print ("<br>");
-    print ("<br>");
-    print ("<br>");
-    print ("<br>");
+    print('<script type="text/javascript" src="modules/products_frontend/view/js/modal_products.js" ></script>');
+    print('<section id="services" >');
+    print('<div class="container">');
+
+    print('<div class="table-display">');
+
     if (isset($arrData) && !empty($arrData)) {
         $i = 0;
         foreach ($arrData as $product) {
             $i++;
-            if (count($arrData) % 2 !== 0 && i >= count($arrData)){
-                print( '<div class="odd_prod">');
+            if (count($arrData) % 2 !== 0 && $i >= count($arrData)){
+                print( '<div class="table-row">');
+                //Improve needed to this part!!!!!!
+                //print( '<div class="odd_prod">');
             }else {
                 if ($i % 2 != 0)
                     print( '<div class="table-row">');
                 else
                     print('<div class="table-separator"></div>');
             }
-            print ("<div class='prod' id='".$product['prodref']."'>");
-            print ("<img class='prodImg' src='" . $product['prodpic'] . "'alt='product' >");
-            print ("<p>" . $product['prodname'] . "</p>");
-            print ("<p id='p2'>" . $product['prodprice'] . "€</p>");
+            print('<div class="table-cell">');
+
+
+            print('<div class="media">');
+            print('<div class="pull-left">');
+            print('<img src="' . $product['prodpic'] . '" class="icon-md" height="80" width="80">');
+            print('</div>');
+            print('<div class="media-body">');
+            print('<h3 class="media-heading">' . $product['prodname'] . '</h3>');
+            print('<p>' . $product['proddesc'] . '</p>');
+            print('<h5> <strong>Precio:' . $product['prodprice'] . '</strong><strong>€</strong> </h5>');
             print("<div id='" . $product['prodref'] . "' class='product_name'> Read Details </div>");
-            print ("</div>");
-            if(count($arrData) % 2 !== 0 && i >= count($arrData)){
-                print('</div>');
-            }else{
-              if ($i % 2 ==0){
-                print('</div><br>');
-              }
+
+            print('</div>');
+            print('</div>');
+            print('<br>');
+
+
+            print('</div>');
+            if (count($arrData) % 2 !== 0 && $i >= count($arrData))
+                print( '</div>');
+            else {
+                if ($i % 2 == 0)
+                    print('</div> <br>');
             }
         }
-    }//End if
-    print ("</div>");
-    print ("</div>");
-    print ("</section>");
-}//End paint_template_products
+    }
+
+    print('</div>');
+    print('</div>');
+    print('</section> ');
+}
+
 
 function paint_template_search($message){
     $log=Log::getInstance();

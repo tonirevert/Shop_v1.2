@@ -45,7 +45,7 @@ class products_bll{
     }
 
     public function count_products_BLL(){
-        return $this->dao->count_products_DAO(this->db);
+        return $this->dao->count_products_DAO($this->db);
     }
 
     public function select_column_products_BLL($arrArgument){

@@ -64,9 +64,16 @@ class productDAO {
           curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);
           curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, 5);
           $file_contents = curl_exec($ch);
-          curl_close($ch);
 
-          return ($file_contents) ? $file_contents : FALSE;
+          $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+          curl_close($ch);
+          $accepted_response = array(200, 301, 302);
+          if(!in_array($httpcode, $accepted_response)){
+            return FALSE;
+          }else{
+            return ($file_contents) ? $file_contents : FALSE;
+          }
+
     }
 
     public function obtain_provinces_DAO(){
